@@ -1,0 +1,97 @@
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_10_11' already exists
+  return cursor.execute(query, kwparameters or parameters)
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_10_11' already exists
+  return cursor.execute(query, kwparameters or parameters)
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[I 161011 00:05:37 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (123.118.110.218) 12.72ms
+[W 161011 00:05:37 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (123.118.110.218) 1.00ms
+[W 161011 00:05:37 web:1946] 404 GET /apple-touch-icon-120x120.png (123.118.110.218) 0.38ms
+[W 161011 00:05:37 web:1946] 404 GET /apple-touch-icon-precomposed.png (123.118.110.218) 0.37ms
+[W 161011 00:05:37 web:1946] 404 GET /apple-touch-icon.png (123.118.110.218) 0.37ms
+[W 161011 00:05:37 web:1946] 404 GET /favicon.ico (123.118.110.218) 0.98ms
+[W 161011 00:05:37 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (123.118.110.218) 0.37ms
+[W 161011 00:05:37 web:1946] 404 GET /apple-touch-icon-120x120.png (123.118.110.218) 0.36ms
+[W 161011 00:05:37 web:1946] 404 GET /apple-touch-icon-precomposed.png (123.118.110.218) 0.37ms
+[W 161011 00:05:37 web:1946] 404 GET /apple-touch-icon.png (123.118.110.218) 0.37ms
+[W 161011 00:05:37 web:1946] 404 GET /favicon.ico (123.118.110.218) 0.61ms
+[W 161011 01:04:43 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (172.82.166.210) 0.57ms
+[I 161011 07:13:27 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (123.118.105.21) 10.07ms
+[W 161011 07:13:27 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (123.118.105.21) 0.98ms
+[W 161011 07:13:27 web:1946] 404 GET /apple-touch-icon-120x120.png (123.118.105.21) 0.38ms
+[W 161011 07:13:27 web:1946] 404 GET /apple-touch-icon-precomposed.png (123.118.105.21) 0.37ms
+[W 161011 07:13:27 web:1946] 404 GET /apple-touch-icon.png (123.118.105.21) 0.37ms
+[W 161011 07:13:27 web:1946] 404 GET /favicon.ico (123.118.105.21) 0.99ms
+[W 161011 07:13:27 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (123.118.105.21) 0.38ms
+[W 161011 07:13:27 web:1946] 404 GET /apple-touch-icon-120x120.png (123.118.105.21) 0.37ms
+[W 161011 07:13:27 web:1946] 404 GET /apple-touch-icon-precomposed.png (123.118.105.21) 0.37ms
+[W 161011 07:13:27 web:1946] 404 GET /apple-touch-icon.png (123.118.105.21) 0.36ms
+[W 161011 07:13:27 web:1946] 404 GET /favicon.ico (123.118.105.21) 0.62ms
+[W 161011 09:18:30 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.78.38) 0.57ms
+[I 161011 19:40:18 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (106.121.6.182) 9.69ms
+[W 161011 19:40:19 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.6.182) 1.03ms
+[W 161011 19:40:19 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.6.182) 0.38ms
+[W 161011 19:40:19 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.6.182) 0.39ms
+[W 161011 19:40:20 web:1946] 404 GET /apple-touch-icon.png (106.121.6.182) 0.51ms
+[W 161011 19:40:20 web:1946] 404 GET /favicon.ico (106.121.6.182) 1.09ms
+[W 161011 19:40:20 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.6.182) 0.38ms
+[W 161011 19:40:20 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.6.182) 0.38ms
+[W 161011 19:40:20 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.6.182) 0.38ms
+[W 161011 19:40:20 web:1946] 404 GET /apple-touch-icon.png (106.121.6.182) 0.37ms
+[W 161011 19:40:20 web:1946] 404 GET /favicon.ico (106.121.6.182) 0.65ms
+[I 161011 20:31:22 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (120.52.94.124) 9.89ms
+[W 161011 20:31:23 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (120.52.94.124) 1.12ms
+[W 161011 20:31:23 web:1946] 404 GET /apple-touch-icon-120x120.png (120.52.94.124) 0.38ms
+[W 161011 20:31:23 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.94.124) 0.39ms
+[W 161011 20:31:24 web:1946] 404 GET /apple-touch-icon.png (120.52.94.124) 0.39ms
+[W 161011 20:31:24 web:1946] 404 GET /favicon.ico (120.52.94.124) 1.06ms
+[W 161011 20:31:24 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (120.52.94.124) 0.40ms
+[W 161011 20:31:24 web:1946] 404 GET /apple-touch-icon-120x120.png (120.52.94.124) 0.37ms
+[W 161011 20:31:25 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.94.124) 0.38ms
+[W 161011 20:31:25 web:1946] 404 GET /apple-touch-icon.png (120.52.94.124) 0.38ms
+[W 161011 20:31:25 web:1946] 404 GET /favicon.ico (120.52.94.124) 0.64ms
+[I 161011 23:44:30 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (123.118.105.21) 9.87ms
+[W 161011 23:44:30 web:1946] 404 GET /favicon.ico (123.118.105.21) 1.56ms
+[W 161011 23:44:31 web:1946] 404 GET /apple-touch-icon-precomposed.png (123.118.105.21) 0.40ms
+[W 161011 23:44:31 web:1946] 404 GET /apple-touch-icon.png (123.118.105.21) 0.38ms
+[I 161011 23:44:31 web:1946] 304 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (123.118.105.21) 8.74ms
+[W 161011 23:44:31 web:1946] 404 GET /apple-touch-icon-precomposed.png (123.118.105.21) 0.90ms
+[W 161011 23:44:31 web:1946] 404 GET /apple-touch-icon.png (123.118.105.21) 0.37ms

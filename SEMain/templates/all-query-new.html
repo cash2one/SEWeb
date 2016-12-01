@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>聚合搜索系统</title>
+        <link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="static/js/query.js"></script>
+        <script src="static/js/jquery-ui.min.js" type="text/javascript"></script>
+	    <script type="text/javascript" src="static/js/jquery.json.min.js"></script>
+        <script type="text/javascript" src="static/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="static/js/header.js"></script>
+        <script type="text/javascript">
+$(document).ready(function() {
+    $("input").keydown(function (e) {
+        var pn = $('#pn').val();
+        if (e.keyCode == 13) {
+            searchAllPage(true,pn);
+        }
+    });
+    $("#"+"{{content_type}}").css("color","#000000");
+    var inputword = decodeURI("{{searchword}}");
+    $("#query_input").val(inputword);
+    });
+
+    //searchFlage true 代表不修改搜索引擎
+    function searchAllPage(searchFlag,pn){
+        var query_input = document.getElementById("query_input").value;
+        var content_type = document.getElementById("content_type").value;
+        var url = '/queryAll?' + 'q=+' + query_input
+        if(searchFlag){
+            url += $.cookie("search_String");
+        }else{
+            url += $.cookie("search_other_String");
+        }
+        url += "&content_type="+content_type;
+        if(typeof(pn) =='undefined' ){
+            pn=1;
+        }
+        url += "&pn="+pn;
+        window.location.href = url;
+    }
+    function searchPrePage(){
+        var pn = document.getElementById("pn").value;
+        var pnInt = parseInt(pn);
+        if(pnInt == 0){return;}
+        pnInt = pnInt-1;
+        searchAllPage(true,pnInt)
+    }
+
+    function searchNextPage(){
+        var pn = document.getElementById("pn").value;
+        var pnInt = parseInt(pn);
+        if(pnInt == 10){return;}
+        pnInt = pnInt+1;
+        searchAllPage(true,pnInt)
+    }
+
+    function clickType(obj){
+         var id = $(obj).attr("id");
+         console.log(id);
+         var content_type = $("#content_type").val();
+         if(id == content_type){return;}
+         var pn = $("#pn").val();
+         if(typeof(pn)=='undefined' ){
+             pn=1;
+         }
+         $('#content_type').val(id);
+         searchAllPage(true,pn);
+    }
+
+        </script>
+
+        <style>
+        BODY {
+            MARGIN: 0px;
+            background-color:#EEEEEE;
+            text-align:left;
+            font-family: "微软雅黑", Verdana, Geneva, sans-serif;
+        }
+        BODY, TD {
+            FONT-SIZE: 14px;
+        }
+        form {
+            margin:4px;
+            padding:0;
+        }
+        a {COLOR: #000000; text-decoration:none}
+        #content-nav a:hover{color:blue;}
+        #content-nav a{
+            margin-left:30px;
+            text-decoration: underline;
+            font-size: 15px;
+            color: #337ab7;
+        }
+        </style>
+    </head>
+
+    <div name="fraheader" id="fraheader" scrolling="no" height="70px">
+        <div style="margin:4px;text-align:center;">
+            <a href="/" target="_top"><img src="static/title.jpg" width="90" height="24" border="0" align="absmiddle" style="margin-right:10px;"/></a>
+            <!--
+            <a href="search1.html?keyword=%E4%B9%A0%E8%BF%91%E5%B9%B3&num=10&one=baidu&two=bing&three=sogou&four=so" target="_parent">单搜</a>
+            <a href="search2.html?keyword=%E4%B9%A0%E8%BF%91%E5%B9%B3&num=10&one=baidu&two=bing&three=sogou&four=so" target="_parent">双搜</a>
+            <a href="search3.html?keyword=%E4%B9%A0%E8%BF%91%E5%B9%B3&num=10&one=baidu&two=bing&three=sogou&four=so" target="_parent">三搜</a>
+            <a href="search4.html?keyword=%E4%B9%A0%E8%BF%91%E5%B9%B3&num=10&one=baidu&two=bing&three=sogou&four=so" target="_parent">四搜</a>
+             -->
+            <input size="35" name="keyword" id="query_input" type="text" class="form-control" style="width:30%;display:inline-block;">
+
+            <input name="num" type="hidden" value="10"/>
+            <!--
+        <label>左侧
+            <select name="one" style="width:52px">
+            <option value="baidu">百度</option><option value="google">谷歌</option><option value="sogou">搜狗</option><option value="360">360</option><option value="bing"selected>必应</option><option value="sm">神马</option></select>
+            </label>
+
+        <label>中间
+            <select name="two" style="width:52px">
+            <option value="baidu">百度</option><option value="google">谷歌</option><option value="sogou">搜狗</option><option value="360">360</option><option value="bing"selected>必应</option><option value="sm">神马</option></select>
+            </label>
+
+        <label>右侧
+            <select name="three" style="width:52px">
+            <option value="baidu">百度</option><option value="google">谷歌</option><option value="sogou">搜狗</option><option value="360">360</option><option value="bing"selected>必应</option><option value="sm">神马</option></select>
+            </label>
+            -->
+            <input name="four" type="hidden" value="so"/> &nbsp;
+            <button onclick="searchAllPage(true,$('#pn').val())" type="button" style="margin:0 10px 0 10px;">搜索</button>
+
+            <button onclick="searchAllPage(false,$('#pn').val())" type="button" style="margin:0 10px 0 10px;">引擎切换</button>
+            {% if content_type != 3 and content_type != 5 and content_type != 4%}
+            &nbsp;&nbsp;<a href="#"   onclick="searchPrePage()">上一页</a>
+            <input size="25" name="pn" id="pn" type="text" class="form-control" value="{{ pn }}" style="width:50px;display:inline-block;border-radius:26px;">
+            &nbsp;&nbsp;<a href="#" onclick="searchNextPage()">下一页</a>
+            {%end%}
+            <input name="content_type" id="content_type"  type="hidden" value="{{content_type}}"/>
+            <!--</form>-->
+        </div>
+        <div id="content-nav" style="margin:4px auto;width:700px;">
+            <a href="#" style="" id="1" onclick="clickType(this)">新闻</a>
+            <a href="#" style="" id="2" onclick="clickType(this)">网页</a>
+            <a href="#" style="" id="3" onclick="clickType(this)">图片</a>
+            <a href="#" style="" id="4" onclick="clickType(this)">右侧推荐</a>
+            <a href="#" style="" id="6" onclick="clickType(this)">联想词</a><!--包括为您推荐、相关搜索-->
+            <a href="#" style="" id="7" onclick="clickType(this)">相关搜索</a><!--包括为您推荐、相关搜索-->
+            <a href="#" style="" id="8" onclick="clickType(this)">为您推荐</a><!--包括为您推荐、相关搜索-->
+        </div>
+        <hr style="height:1px;border:none;border-top:1px solid #000000;"/>
+    </div>
+    <iframe id="iframepage" src="/queryAll2?q=+{{searchword}}&pn={{pn}}&content_type={{content_type}}&baidu={{baidu}}&s360={{s360}}&sogou={{sogou}}&china_so={{china_so}}&bing={{bing}}" style="position:absolute;top:84px" width="100%" height="91%" frameborder="yes" framespacing="2" border="6" scrolling="auto" bordercolor="#FFFFFF" ></iframe>
+</html>

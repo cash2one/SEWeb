@@ -1,0 +1,40 @@
+{% if data.get('type') == 'normalNews' %}
+<div class="result_item" style="margin-top:25px;">
+    <div>
+        <span class="result_title">
+        <h5>
+            <a href="{{ data['url']}}">{{data['title']}}</a>
+        </h5>
+        </span>
+        <div style="font-size: 13px; line-height: 1.54;">
+                <div class="" style="margin-bottom: 1px;color:#777;">
+                    <span>{{data['where']}} &nbsp; &nbsp; {{ data['date']}}</span>
+                </div>
+
+                <div>
+                    {% if data['imgUrl'] is None%}
+                        <div style="">
+                        </div>
+                        <div class="" style="margin-left:0;">
+                        {{ data['abstract']}}
+                        <br>
+
+                    {% else %}
+                        <div style="">
+                        <a style="" class="" target="_blank" href="">
+                           <img style="float: left;width: 121px;height: 81px;vertical-align: top;" src="{{ data['imgUrl']}}">
+                        </a>
+                        </div>
+                        <div class="" style="margin-left:127px;">
+                        {{ data['abstract']}}
+                        <br>
+                    {%end%}
+                    <a style="color:#7a77c8;" href="{{data['sameNewsUrl']}}" target="_blank">{{ data['sameNewsNum']}}</a>
+
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</div>
+{%end%}

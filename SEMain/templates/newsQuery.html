@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>聚合新闻</title>
+        <link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/jquery-ui.min.js" type="text/javascript"></script>
+	    <script type="text/javascript" src="static/js/jquery.json.min.js"></script>
+        <script type="text/javascript" src="static/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="static/js/query.js"></script>
+
+        <style>
+        .ui-autocomplete {
+            max-height: 200px;
+            overflow-y: auto;
+            /* 防止水平滚动条 */
+            overflow-x: hidden;
+        }
+        .rec-a {
+            margin-right:10px;
+            text-decoration: underline;
+        }
+        .rec-div {
+            font-size:12px;
+        }
+        /* IE 6 不支持 max-height
+        * 使用 height 代替，但是这会强制菜单总是显示为那个高度
+        */
+        * html .ui-autocomplete {
+            height: 100px;
+        }
+
+        table tbody tr td{
+            width: 175px;
+            line-height: 22px;
+        }
+        a:hover{
+            cursor:pointer;
+        }
+        a{
+            text-decoration: underline;
+        }
+        </style>
+ <script type="text/javascript">
+    $(function () {
+         {% for search in search_dict %}
+            if("{{search_dict[search]}}" == "true"){
+                $('#logo').attr("src","/static/{{search}}.png");
+                $('#current_search_cache').val("{{search}}");
+            }
+        {% end %}
+
+        $("input").keydown(function (e) {
+            if (e.keyCode == 13) {
+                 page_click($('#current_search_cache').val(),1);
+             }
+         });
+        $("#1").css("color","#000000");
+        $("ul li:eq('{{pn}}') a").css("background-color","#dddddd");
+       //  fillSuggestTable();
+    });
+
+     function fillSuggestTable() {
+        var content = "<tr>";
+        var arr = $.parseJSON( $.cookie("suggest") );
+      //  console.log(arr);
+        var search = $('#current_search_cache').val();
+         var i = 0; //for 每行显示固定个数data
+        $.each(arr , function( index, value ) {
+            var s = value.split("--")[1];
+            var r = s.indexOf(search);
+            if(value.split("--")[1].indexOf(search)!= -1){
+                content += "<td><a>"+value.split("--")[0]+"</a></td>";
+                i=i+1;
+                if ((i) % 3 == 0) {   //每行三个
+                  content += "</tr>";
+                  if (i != arr.length - 1) {
+                      content += "<tr>";
+                  }
+                }
+            }
+    });
+    if(arr.length%4 != 0 ){
+        content += "</tr>";
+    }
+    $("#suggestTab").append(content);
+    $("body").on("click" , "table tbody a", function(){
+        $("#query_input").val($(this).text());
+        $("#form_sub").click();
+    });
+}
+
+
+ </script>
+
+    </head>
+
+    <body>
+        {% autoescape None %}
+        <div class="col-md-8 col-md-offset-0" style="margin-top:10px;">
+            {{ modules.HeaderItem("1") }}
+
+            <div class="col-md-2 ">
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6 col-md-offset-1" style="display:none;">
+            <div class="input-group" style="margin-top:15px;">
+                <input id="query_input" type="text" class="form-control" value="{{ searchword }}" 　placeholder="Search for..."   />
+                <span class="input-group-btn">
+                    <button id="form_sub" class="btn btn-default" type="button" onclick="page_click($('#current_search_cache').val(),1)">Go!</button>
+                    <input type="hidden" id="current_search_cache" value=""/>
+                    <input type="hidden" id="current_page_cache" value="{{pn}}"/>
+                    <input type="hidden" id="url_type" value="{{url_type}}"/>
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-md-offset-1 " style="margin-top:10px;">
+            {% if len(searchResult) == 0 %}
+              <h3  style="text-align:left;font-weight:bold;line-height:30px;font-size:16px;">此引擎没有相关信息</h3>
+            {%end%}
+            {% for page in searchResult %}
+              <div>{{ modules.NewsItem(page) }}</div>
+            {% end %}
+
+
+           <h3  style="text-align:left;font-weight:bold;line-height:30px;font-size:16px;">相关搜索</h3>
+            <table id="suggest">
+                <tbody id="suggestTab"></tbody>
+            </table>
+
+            <!--分頁導航-->
+            <div class="col-md-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" onclick="clickPrePage()">Prev</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),1)">1</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),2)">2</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),3)">3</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),4)">4</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),5)">5</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),6)">6</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),7)">7</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),8)">8</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),9)">9</a>
+                    </li>
+                    <li>
+                        <a onclick="page_click($('#current_search_cache').val(),10)">10</a>
+                    </li>
+
+                    <li>
+                        <a onclick="clickNextPage()">Next</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Search Results</title>
+
+</head>
+<body>
+{% autoescape None %}
+<ul>
+    {% for page in searchResult %}
+    <li>{{ modules.ResultItem(page) }}</li>
+    {% end %}
+</ul>
+</body>
+</html>

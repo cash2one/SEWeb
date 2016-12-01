@@ -1,0 +1,647 @@
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_11_20' already exists
+  return cursor.execute(query, kwparameters or parameters)
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[I 161120 01:19:36 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (221.217.136.211) 12.53ms
+[W 161120 01:19:36 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (221.217.136.211) 1.15ms
+[W 161120 01:19:36 web:1946] 404 GET /apple-touch-icon-120x120.png (221.217.136.211) 0.38ms
+[W 161120 01:19:36 web:1946] 404 GET /apple-touch-icon-precomposed.png (221.217.136.211) 0.38ms
+[W 161120 01:19:36 web:1946] 404 GET /apple-touch-icon.png (221.217.136.211) 0.37ms
+[W 161120 01:19:36 web:1946] 404 GET /favicon.ico (221.217.136.211) 1.04ms
+[W 161120 01:19:36 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (221.217.136.211) 0.38ms
+[W 161120 01:19:36 web:1946] 404 GET /apple-touch-icon-120x120.png (221.217.136.211) 0.37ms
+[W 161120 01:19:36 web:1946] 404 GET /apple-touch-icon-precomposed.png (221.217.136.211) 0.38ms
+[W 161120 01:19:36 web:1946] 404 GET /apple-touch-icon.png (221.217.136.211) 0.37ms
+[W 161120 01:19:36 web:1946] 404 GET /favicon.ico (221.217.136.211) 0.62ms
+[I 161120 08:53:22 web:1946] 200 GET /queryAll?q=%E4%B9%A0%E4%BB%B2%E5%8B%8B%E4%B8%8E%E8%96%84%E4%B8%80%E6%B3%A2%E7%9F%9B%E7%9B%BE%E5%9B%A0%E6%9E%9C%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89%E5%A4%A7%E6%B1%87%E9%9B%86&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (114.242.244.18) 10.19ms
+[I 161120 08:53:22 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.18) 5.90ms
+[I 161120 08:53:22 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.18) 0.77ms
+[I 161120 08:53:22 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.18) 0.81ms
+[I 161120 08:53:22 web:1946] 200 GET /static/js/query.js (114.242.244.18) 0.68ms
+[I 161120 08:53:22 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.18) 0.71ms
+[I 161120 08:53:22 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.18) 0.67ms
+[I 161120 08:53:22 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.18) 236.72ms
+[I 161120 08:53:22 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.18) 328.96ms
+[I 161120 08:53:22 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.18) 437.30ms
+[I 161120 08:53:22 web:1946] 200 GET /queryHeader?q=+%E4%B9%A0%E4%BB%B2%E5%8B%8B%E4%B8%8E%E8%96%84%E4%B8%80%E6%B3%A2%E7%9F%9B%E7%9B%BE%E5%9B%A0%E6%9E%9C%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89%E5%A4%A7%E6%B1%87%E9%9B%86&pn=1&content_type=2 (114.242.244.18) 2.45ms
+[I 161120 08:53:23 web:1946] 200 GET /static/js/header.js (114.242.244.18) 0.68ms
+[I 161120 08:53:23 web:1946] 200 GET /static/title.jpg (114.242.244.18) 0.72ms
+[W 161120 08:53:24 web:1946] 404 GET /favicon.ico (114.242.244.18) 1.92ms
+[I 161120 10:15:44 web:1946] 200 GET /queryAll?q=%E4%B9%A0%E4%BB%B2%E5%8B%8B%E4%B8%8E%E8%96%84%E4%B8%80%E6%B3%A2%E7%9F%9B%E7%9B%BE%E5%9B%A0%E6%9E%9C%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89%E5%A4%A7%E6%B1%87%E9%9B%86&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (114.242.244.18) 10.52ms
+[I 161120 10:15:45 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.18) 0.87ms
+[I 161120 10:15:45 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.18) 0.77ms
+[I 161120 10:15:45 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.18) 0.83ms
+[I 161120 10:15:45 web:1946] 200 GET /static/js/query.js (114.242.244.18) 0.68ms
+[I 161120 10:15:45 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.18) 0.77ms
+[I 161120 10:15:46 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.18) 0.68ms
+[I 161120 10:15:46 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.18) 517.95ms
+[I 161120 10:15:46 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.18) 566.62ms
+[I 161120 10:15:47 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.18) 1729.13ms
+[I 161120 10:15:48 web:1946] 200 GET /queryHeader?q=+%E4%B9%A0%E4%BB%B2%E5%8B%8B%E4%B8%8E%E8%96%84%E4%B8%80%E6%B3%A2%E7%9F%9B%E7%9B%BE%E5%9B%A0%E6%9E%9C%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89%E5%A4%A7%E6%B1%87%E9%9B%86&pn=1&content_type=2 (114.242.244.18) 2.60ms
+[I 161120 10:15:48 web:1946] 200 GET /static/js/header.js (114.242.244.18) 0.72ms
+[I 161120 10:15:48 web:1946] 200 GET /static/title.jpg (114.242.244.18) 0.84ms
+[W 161120 10:15:52 web:1946] 404 GET /favicon.ico (114.242.244.18) 1.77ms
+[I 161120 11:18:25 web:1946] 200 GET / (111.207.250.61) 1.74ms
+[I 161120 11:18:25 web:1946] 200 GET /static/css/font-awesome.min.css (111.207.250.61) 0.84ms
+[I 161120 11:18:25 web:1946] 200 GET /static/css/jquery-ui.min.css (111.207.250.61) 0.79ms
+[I 161120 11:18:25 web:1946] 200 GET /static/css/bootstrap-switch.min.css (111.207.250.61) 0.71ms
+[I 161120 11:18:25 web:1946] 200 GET /static/js/jquery.min.js (111.207.250.61) 10.06ms
+[I 161120 11:18:25 web:1946] 200 GET /static/css/bootstrap.min.css (111.207.250.61) 26.55ms
+[I 161120 11:18:25 web:1946] 200 GET /static/js/bootstrap.min.js (111.207.250.61) 0.79ms
+[I 161120 11:18:25 web:1946] 200 GET /static/js/bootstrap-switch.min.js (111.207.250.61) 0.75ms
+[I 161120 11:18:25 web:1946] 200 GET /static/js/index.js (111.207.250.61) 0.68ms
+[I 161120 11:18:25 web:1946] 200 GET /static/js/jquery.json.min.js (111.207.250.61) 0.67ms
+[I 161120 11:18:25 web:1946] 200 GET /static/js/jquery-ui.min.js (111.207.250.61) 420.07ms
+[I 161120 11:18:25 web:1946] 200 GET /static/js/jquery.cookie.js (111.207.250.61) 0.69ms
+[I 161120 11:18:26 web:1946] 200 GET /static/cnm4.jpg (111.207.250.61) 0.79ms
+[I 161120 11:18:26 web:1946] 200 GET /static/title1.jpg (111.207.250.61) 0.66ms
+[W 161120 11:18:26 web:1946] 404 GET /favicon.ico (111.207.250.61) 1.61ms
+[I 161120 11:18:28 web:1946] 200 GET /suggest?term=+ (111.207.250.61) 0.56ms
+[I 161120 11:18:29 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.60ms
+[I 161120 11:18:30 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:18:30 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:18:30 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:18:30 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:18:30 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:18:30 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:18:30 web:1946] 200 GET /suggest?term=%E4%BA%92%E8%81%94%E7%BD%91+ (111.207.250.61) 273.88ms
+[I 161120 11:18:31 web:1946] 200 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (111.207.250.61) 10.01ms
+[I 161120 11:18:31 web:1946] 200 GET /static/js/query.js (111.207.250.61) 0.93ms
+[I 161120 11:18:32 web:1946] 200 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=2 (111.207.250.61) 2.40ms
+[I 161120 11:18:32 web:1946] 200 GET /static/js/header.js (111.207.250.61) 0.68ms
+[I 161120 11:18:32 web:1946] 200 GET /static/title.jpg (111.207.250.61) 0.72ms
+[I 161120 11:18:34 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:18:34 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 161120 11:18:34 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161120 11:18:35 web:1946] 200 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (111.207.250.61) 597.55ms
+[I 161120 11:18:35 web:1946] 200 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=7 (111.207.250.61) 2.62ms
+[I 161120 11:18:35 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=2 (111.207.250.61) 4.49ms
+[I 161120 11:18:37 connectionpool:207] Starting new HTTP connection (1): 220.181.111.188
+[I 161120 11:18:37 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:18:37 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:18:37 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/hint_top_search.py", line 56, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-400: ordinal not in range(256)
+
+[I 161120 11:18:37 web:1946] 200 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=8&pn=1 (111.207.250.61) 809.70ms
+[I 161120 11:18:37 web:1946] 200 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=8 (111.207.250.61) 2.41ms
+[I 161120 11:18:37 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=3 (111.207.250.61) 5.42ms
+[I 161120 11:18:40 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 161120 11:18:40 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161120 11:18:40 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:18:40 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (111.207.250.61) 532.84ms
+[I 161120 11:18:40 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=7 (111.207.250.61) 2.37ms
+[I 161120 11:18:40 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=2 (111.207.250.61) 4.40ms
+[I 161120 11:18:41 connectionpool:207] Starting new HTTP connection (1): 220.181.111.188
+[I 161120 11:18:41 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:18:41 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:18:41 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-17:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/hint_top_search.py", line 56, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-400: ordinal not in range(256)
+
+[I 161120 11:18:41 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=8&pn=1 (111.207.250.61) 435.95ms
+[I 161120 11:18:41 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=8 (111.207.250.61) 2.40ms
+[I 161120 11:18:42 web:1946] 304 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=3 (111.207.250.61) 3.95ms
+[I 161120 11:18:43 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161120 11:18:43 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 161120 11:18:43 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:18:44 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (111.207.250.61) 536.10ms
+[I 161120 11:18:44 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=7 (111.207.250.61) 2.36ms
+[I 161120 11:18:44 web:1946] 304 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=2 (111.207.250.61) 4.33ms
+[I 161120 11:18:45 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:18:45 connectionpool:207] Starting new HTTP connection (1): 220.181.111.188
+[I 161120 11:18:45 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:18:45 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-23:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/hint_top_search.py", line 56, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-400: ordinal not in range(256)
+
+[I 161120 11:18:45 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=8&pn=1 (111.207.250.61) 380.87ms
+[I 161120 11:18:45 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=8 (111.207.250.61) 2.37ms
+[I 161120 11:18:45 web:1946] 304 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=3 (111.207.250.61) 3.62ms
+[I 161120 11:18:47 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:18:47 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:18:47 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:18:47 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:18:47 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:18:47 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:18:47 web:1946] 200 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=6&pn=1 (111.207.250.61) 249.66ms
+[I 161120 11:18:47 web:1946] 200 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=6 (111.207.250.61) 2.35ms
+[I 161120 11:18:47 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=1 (111.207.250.61) 4.40ms
+[I 161120 11:18:52 web:1946] 200 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=4&pn=1 (111.207.250.61) 11.02ms
+[I 161120 11:18:52 web:1946] 200 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=4 (111.207.250.61) 2.32ms
+[I 161120 11:18:52 connectionpool:207] Starting new HTTP connection (1): www.baidu.com
+[I 161120 11:18:52 web:1946] 200 GET /recommend?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&baidu=true&pn=1&url_type=recommend (111.207.250.61) 431.34ms
+[I 161120 11:18:52 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:18:53 web:1946] 200 GET /recommend?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&sogou=true&pn=1&url_type=recommend (111.207.250.61) 191.21ms
+[I 161120 11:18:53 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:18:53 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-31:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/recommend.py", line 185, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-400: ordinal not in range(256)
+
+[I 161120 11:18:53 web:1946] 200 GET /recommend?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&s360=true&pn=1&url_type=recommend (111.207.250.61) 332.97ms
+[I 161120 11:18:53 web:1946] 200 GET /static/baidu.png (111.207.250.61) 0.76ms
+[I 161120 11:18:53 web:1946] 200 GET /static/sogou.png (111.207.250.61) 0.69ms
+[I 161120 11:18:53 web:1946] 200 GET /static/s360.png (111.207.250.61) 0.71ms
+[I 161120 11:18:54 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:18:54 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:18:54 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:18:54 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:18:54 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:18:54 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:18:55 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=6&pn=1 (111.207.250.61) 242.28ms
+[I 161120 11:18:55 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=6 (111.207.250.61) 2.34ms
+[I 161120 11:18:55 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=1 (111.207.250.61) 4.40ms
+[I 161120 11:18:55 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=4&pn=1 (111.207.250.61) 10.09ms
+[I 161120 11:18:55 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=4 (111.207.250.61) 2.28ms
+[I 161120 11:18:55 connectionpool:207] Starting new HTTP connection (1): www.baidu.com
+[I 161120 11:18:56 web:1946] 304 GET /recommend?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&baidu=true&pn=1&url_type=recommend (111.207.250.61) 428.08ms
+[I 161120 11:18:56 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:18:56 web:1946] 304 GET /recommend?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&sogou=true&pn=1&url_type=recommend (111.207.250.61) 174.21ms
+[I 161120 11:18:56 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:18:56 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-39:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/recommend.py", line 185, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-400: ordinal not in range(256)
+
+[I 161120 11:18:56 web:1946] 304 GET /recommend?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&s360=true&pn=1&url_type=recommend (111.207.250.61) 311.90ms
+[I 161120 11:18:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:18:58 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:18:58 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:18:58 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:18:58 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:18:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:18:58 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=6&pn=1 (111.207.250.61) 238.88ms
+[I 161120 11:18:58 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=6 (111.207.250.61) 2.33ms
+[I 161120 11:18:58 web:1946] 304 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=1 (111.207.250.61) 4.33ms
+[I 161120 11:19:00 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 161120 11:19:00 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161120 11:19:00 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:19:00 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (111.207.250.61) 567.06ms
+[I 161120 11:19:01 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=7 (111.207.250.61) 2.38ms
+[I 161120 11:19:01 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=2 (111.207.250.61) 4.99ms
+[I 161120 11:19:02 connectionpool:207] Starting new HTTP connection (1): 220.181.111.188
+[I 161120 11:19:02 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:19:02 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:19:02 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-50:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/hint_top_search.py", line 56, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-400: ordinal not in range(256)
+
+[I 161120 11:19:03 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=8&pn=1 (111.207.250.61) 476.76ms
+[I 161120 11:19:03 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=8 (111.207.250.61) 2.44ms
+[I 161120 11:19:03 web:1946] 304 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=3 (111.207.250.61) 3.84ms
+[I 161120 11:19:04 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 161120 11:19:04 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:19:04 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161120 11:19:04 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (111.207.250.61) 551.57ms
+[I 161120 11:19:04 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=7 (111.207.250.61) 2.45ms
+[I 161120 11:19:04 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=2 (111.207.250.61) 4.40ms
+[I 161120 11:19:07 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:19:07 connectionpool:207] Starting new HTTP connection (1): 220.181.111.188
+[I 161120 11:19:07 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:19:07 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-56:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/hint_top_search.py", line 56, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-400: ordinal not in range(256)
+
+[I 161120 11:19:07 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=8&pn=1 (111.207.250.61) 343.27ms
+[I 161120 11:19:07 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=8 (111.207.250.61) 2.39ms
+[I 161120 11:19:07 web:1946] 304 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=3 (111.207.250.61) 3.86ms
+[I 161120 11:19:55 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 161120 11:19:55 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:19:55 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161120 11:19:55 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (111.207.250.61) 620.50ms
+[I 161120 11:19:55 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=7 (111.207.250.61) 2.39ms
+[I 161120 11:19:55 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=2 (111.207.250.61) 4.50ms
+[I 161120 11:19:56 connectionpool:207] Starting new HTTP connection (1): 220.181.111.188
+[I 161120 11:19:56 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:19:56 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:19:56 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-62:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/hint_top_search.py", line 56, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-400: ordinal not in range(256)
+
+[I 161120 11:19:56 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=8&pn=1 (111.207.250.61) 431.22ms
+[I 161120 11:19:57 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=8 (111.207.250.61) 2.35ms
+[I 161120 11:19:57 web:1946] 304 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=3 (111.207.250.61) 3.57ms
+[I 161120 11:19:57 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 161120 11:19:57 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161120 11:19:57 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:19:58 web:1946] 304 GET /queryAll?q=%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (111.207.250.61) 539.33ms
+[I 161120 11:19:58 web:1946] 304 GET /queryHeader?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A&pn=1&content_type=7 (111.207.250.61) 2.37ms
+[I 161120 11:19:58 web:1946] 200 GET /queryQita?q=+%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A+&xgss=true&pn=1&url_type=queryQita&q_type=2 (111.207.250.61) 4.44ms
+[W 161120 11:43:48 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.78.38) 1.30ms
+[I 161120 11:45:31 web:1946] 200 GET / (203.93.12.6) 1.73ms
+[I 161120 11:45:31 web:1946] 200 GET /static/css/font-awesome.min.css (203.93.12.6) 0.87ms
+[I 161120 11:45:31 web:1946] 200 GET /static/css/jquery-ui.min.css (203.93.12.6) 0.80ms
+[I 161120 11:45:31 web:1946] 200 GET /static/css/bootstrap-switch.min.css (203.93.12.6) 0.71ms
+[I 161120 11:45:32 web:1946] 200 GET /static/js/bootstrap.min.js (203.93.12.6) 0.82ms
+[I 161120 11:45:32 web:1946] 200 GET /static/js/bootstrap-switch.min.js (203.93.12.6) 0.97ms
+[I 161120 11:45:32 web:1946] 200 GET /static/js/jquery.min.js (203.93.12.6) 33.63ms
+[I 161120 11:45:32 web:1946] 200 GET /static/js/index.js (203.93.12.6) 0.73ms
+[I 161120 11:45:32 web:1946] 200 GET /static/css/bootstrap.min.css (203.93.12.6) 47.78ms
+[I 161120 11:45:32 web:1946] 200 GET /static/js/jquery.json.min.js (203.93.12.6) 0.70ms
+[I 161120 11:45:32 web:1946] 200 GET /static/js/jquery.cookie.js (203.93.12.6) 0.68ms
+[I 161120 11:45:32 web:1946] 200 GET /static/js/jquery-ui.min.js (203.93.12.6) 120.89ms
+[I 161120 11:45:32 web:1946] 200 GET /static/cnm4.jpg (203.93.12.6) 0.83ms
+[I 161120 11:45:32 web:1946] 200 GET /static/title1.jpg (203.93.12.6) 0.69ms
+[W 161120 11:45:32 web:1946] 404 GET /favicon.ico (203.93.12.6) 1.73ms
+[I 161120 11:45:36 web:1946] 200 GET /queryAll?q=%E4%B9%A0%E8%BF%91%E5%B9%B3&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (203.93.12.6) 10.04ms
+[I 161120 11:45:36 web:1946] 200 GET /static/js/query.js (203.93.12.6) 0.72ms
+[I 161120 11:45:36 web:1946] 200 GET /queryHeader?q=+%E4%B9%A0%E8%BF%91%E5%B9%B3&pn=1&content_type=2 (203.93.12.6) 2.29ms
+[I 161120 11:45:36 web:1946] 200 GET /static/js/header.js (203.93.12.6) 0.68ms
+[I 161120 11:45:36 web:1946] 200 GET /static/title.jpg (203.93.12.6) 0.72ms
+[I 161120 11:45:38 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:45:38 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:45:38 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:45:38 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:45:38 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:45:38 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:45:38 web:1946] 200 GET /suggest?term=%E4%B9%A0%E8%BF%91%E5%B9%B3 (203.93.12.6) 253.92ms
+[I 161120 11:45:42 web:1946] 200 GET /suggest?term=+ (203.93.12.6) 0.46ms
+[I 161120 11:45:44 web:1946] 200 GET /queryAll?q=%E5%BD%AD%E4%B8%BD%E5%AA%9B&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (203.93.12.6) 9.24ms
+[I 161120 11:45:44 web:1946] 200 GET /queryHeader?q=+%E5%BD%AD%E4%B8%BD%E5%AA%9B&pn=1&content_type=2 (203.93.12.6) 2.51ms
+[I 161120 11:45:45 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:45:45 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:45:45 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:45:45 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:45:45 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:45:45 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:45:45 web:1946] 200 GET /suggest?term=%E5%BD%AD%E4%B8%BD%E5%AA%9B (203.93.12.6) 228.48ms
+[I 161120 11:45:47 web:1946] 304 GET /suggest?term=+ (203.93.12.6) 0.38ms
+[I 161120 11:45:48 web:1946] 200 GET /queryAll?q=%E6%9D%8E%E6%98%8E%E6%98%8E&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (203.93.12.6) 9.25ms
+[I 161120 11:45:48 web:1946] 200 GET /queryHeader?q=+%E6%9D%8E%E6%98%8E%E6%98%8E&pn=1&content_type=2 (203.93.12.6) 2.31ms
+[I 161120 11:45:50 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:45:50 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:45:50 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:45:50 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:45:50 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:45:50 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:45:50 web:1946] 200 GET /suggest?term=%E6%9D%8E%E6%98%8E%E6%98%8E (203.93.12.6) 286.32ms
+[I 161120 11:45:56 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:45:56 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:45:56 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:45:56 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:45:56 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:45:56 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:45:56 web:1946] 200 GET /suggest?term=%E6%9D%8E%E6%98%8E%E6%98%8E (203.93.12.6) 269.84ms
+[I 161120 11:46:04 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:46:04 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:46:04 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:46:04 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:46:04 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:46:04 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:46:05 web:1946] 200 GET /suggest?term=%E6%9D%8E%E6%98%8E%E6%98%8E (203.93.12.6) 235.33ms
+[W 161120 11:46:05 web:1946] 404 GET /static/css/images/ui-bg_glass_75_dadada_1x400.png (203.93.12.6) 1.91ms
+[I 161120 11:47:29 web:1946] 200 GET /queryAll?q=%E6%9D%8E%E6%98%8E%E6%98%8E&baidu=true&s360=true&sogou=true&content_type=1&pn=1 (203.93.12.6) 9.78ms
+[I 161120 11:47:29 web:1946] 200 GET /queryHeader?q=+%E6%9D%8E%E6%98%8E%E6%98%8E&pn=1&content_type=1 (203.93.12.6) 2.31ms
+[I 161120 11:47:30 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:30 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:30 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:30 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:30 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:31 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:31 web:1946] 304 GET /suggest?term=%E6%9D%8E%E6%98%8E%E6%98%8E (203.93.12.6) 238.36ms
+[I 161120 11:47:33 web:1946] 200 GET /queryAll?q=%E6%88%B4%E5%A8%87&baidu=true&s360=true&sogou=true&content_type=1&pn=1 (203.93.12.6) 9.55ms
+[I 161120 11:47:33 web:1946] 200 GET /queryHeader?q=+%E6%88%B4%E5%A8%87&pn=1&content_type=1 (203.93.12.6) 2.31ms
+[I 161120 11:47:37 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:37 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:37 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:37 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:37 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:37 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:37 web:1946] 200 GET /suggest?term=%E6%88%B4%E5%A8%87 (203.93.12.6) 231.28ms
+[I 161120 11:47:40 web:1946] 304 GET /suggest?term=+ (203.93.12.6) 0.40ms
+[I 161120 11:47:41 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:41 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:41 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:41 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:41 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:41 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:41 web:1946] 200 GET /suggest?term=%E5%BA%84+ (203.93.12.6) 267.87ms
+[I 161120 11:47:42 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:42 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:42 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:42 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:42 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:42 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:42 web:1946] 200 GET /suggest?term=%E5%BA%84%E5%AE%B9 (203.93.12.6) 227.67ms
+[I 161120 11:47:43 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:43 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:43 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:43 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:43 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:43 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:43 web:1946] 200 GET /suggest?term=%E5%BA%84%E5%AE%B9+ (203.93.12.6) 232.43ms
+[I 161120 11:47:43 web:1946] 200 GET /queryAll?q=%E5%BA%84%E5%AE%B9%E7%94%9F&baidu=true&s360=true&sogou=true&content_type=1&pn=1 (203.93.12.6) 9.29ms
+[I 161120 11:47:43 web:1946] 200 GET /queryHeader?q=+%E5%BA%84%E5%AE%B9%E7%94%9F&pn=1&content_type=1 (203.93.12.6) 2.31ms
+[I 161120 11:47:45 web:1946] 200 GET /queryAll?q=%E5%BA%84%E5%AE%B9%E7%94%9F&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (203.93.12.6) 9.03ms
+[I 161120 11:47:45 web:1946] 200 GET /queryHeader?q=+%E5%BA%84%E5%AE%B9%E7%94%9F&pn=1&content_type=2 (203.93.12.6) 2.56ms
+[I 161120 11:47:47 web:1946] 200 GET /queryAll?q=%E5%BA%84%E5%AE%B9%E7%94%9F&baidu=true&s360=true&sogou=true&content_type=3&pn=1 (203.93.12.6) 8.81ms
+[I 161120 11:47:47 web:1946] 200 GET /queryHeader?q=+%E5%BA%84%E5%AE%B9%E7%94%9F&pn=1&content_type=3 (203.93.12.6) 2.30ms
+[I 161120 11:47:49 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:49 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:49 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:49 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:49 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:49 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:49 web:1946] 200 GET /suggest?term=%E5%BA%84%E5%AE%B9%E7%94%9F (203.93.12.6) 231.47ms
+[I 161120 11:47:51 web:1946] 304 GET /suggest?term=+ (203.93.12.6) 0.39ms
+[I 161120 11:47:52 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:52 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:52 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:52 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:52 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:52 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:52 web:1946] 200 GET /suggest?term=%E9%BB%84 (203.93.12.6) 242.21ms
+[I 161120 11:47:53 web:1946] 200 GET /queryAll?q=%E9%BB%84&baidu=true&s360=true&sogou=true&content_type=1&pn=1 (203.93.12.6) 9.41ms
+[I 161120 11:47:53 web:1946] 200 GET /queryHeader?q=+%E9%BB%84&pn=1&content_type=1 (203.93.12.6) 2.30ms
+[I 161120 11:47:55 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:55 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:55 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:55 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:55 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:55 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:55 web:1946] 304 GET /suggest?term=%E9%BB%84 (203.93.12.6) 237.29ms
+[I 161120 11:47:56 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:56 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:56 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:56 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:56 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:56 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:56 web:1946] 200 GET /suggest?term=%E9%BB%84+ (203.93.12.6) 251.19ms
+[I 161120 11:47:57 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:57 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:57 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:57 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:57 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:57 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:57 web:1946] 200 GET /suggest?term=%E9%BB%84%E9%BE%99 (203.93.12.6) 241.56ms
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:58 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:58 web:1946] 200 GET /suggest?term=%E9%BB%84%E9%BE%99+ (203.93.12.6) 235.26ms
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:47:58 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:47:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:47:58 web:1946] 200 GET /suggest?term=%E9%BB%84%E9%BE%99%E6%B6%9B (203.93.12.6) 223.93ms
+[I 161120 11:47:59 web:1946] 200 GET /queryAll?q=%E9%BB%84%E9%BE%99%E6%B6%9B&baidu=true&s360=true&sogou=true&content_type=1&pn=1 (203.93.12.6) 9.12ms
+[I 161120 11:47:59 web:1946] 200 GET /queryHeader?q=+%E9%BB%84%E9%BE%99%E6%B6%9B&pn=1&content_type=1 (203.93.12.6) 2.29ms
+[I 161120 11:48:00 web:1946] 200 GET /queryAll?q=%E5%BD%AD%E4%B8%BD%E5%AA%9B&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&m_baidu=true&m_s360=true&m_sogou=true&m_china_so=false&m_bing=false&filte=false&content_type=2&pn=1&mobile=false (111.207.250.61) 9.40ms
+[I 161120 11:48:00 web:1946] 200 GET /queryHeader?q=+%E5%BD%AD%E4%B8%BD%E5%AA%9B&pn=1&content_type=2 (111.207.250.61) 2.29ms
+[I 161120 11:48:01 web:1946] 200 GET /queryAll?q=%E9%BB%84%E9%BE%99%E6%B6%9B&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (203.93.12.6) 13.63ms
+[I 161120 11:48:02 web:1946] 200 GET /queryHeader?q=+%E9%BB%84%E9%BE%99%E6%B6%9B&pn=1&content_type=2 (203.93.12.6) 3.58ms
+[I 161120 11:48:03 web:1946] 304 GET / (111.207.250.61) 1.74ms
+[I 161120 11:48:03 web:1946] 200 GET /queryAll?q=%E9%BB%84%E9%BE%99%E6%B6%9B&baidu=true&s360=true&sogou=true&content_type=3&pn=1 (203.93.12.6) 9.52ms
+[I 161120 11:48:03 web:1946] 200 GET /queryHeader?q=+%E9%BB%84%E9%BE%99%E6%B6%9B&pn=1&content_type=3 (203.93.12.6) 2.69ms
+[I 161120 11:48:05 web:1946] 200 GET /queryAll?q=%E9%BB%84%E9%BE%99%E6%B6%9B&baidu=true&s360=true&sogou=true&content_type=4&pn=1 (203.93.12.6) 9.53ms
+[I 161120 11:48:05 web:1946] 200 GET /queryHeader?q=+%E9%BB%84%E9%BE%99%E6%B6%9B&pn=1&content_type=4 (203.93.12.6) 2.46ms
+[I 161120 11:48:05 connectionpool:207] Starting new HTTP connection (1): www.baidu.com
+[I 161120 11:48:05 web:1946] 200 GET /recommend?q=+%E9%BB%84%E9%BE%99%E6%B6%9B+&baidu=true&pn=1&url_type=recommend (203.93.12.6) 664.45ms
+[I 161120 11:48:05 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161120 11:48:06 web:1946] 200 GET /recommend?q=+%E9%BB%84%E9%BE%99%E6%B6%9B+&sogou=true&pn=1&url_type=recommend (203.93.12.6) 190.91ms
+[I 161120 11:48:06 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161120 11:48:06 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+Exception in thread Thread-153:
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/recommend.py", line 185, in so360Recommend
+    result = response.text.encode('ISO-8859-1').decode('utf-8')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 396-398: ordinal not in range(256)
+
+[I 161120 11:48:06 web:1946] 200 GET /recommend?q=+%E9%BB%84%E9%BE%99%E6%B6%9B+&s360=true&pn=1&url_type=recommend (203.93.12.6) 328.58ms
+[I 161120 11:48:06 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:48:06 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 11:48:06 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 11:48:06 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 11:48:06 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 11:48:06 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 11:48:06 web:1946] 200 GET /queryAll?q=%E9%BB%84%E9%BE%99%E6%B6%9B&baidu=true&s360=true&sogou=true&content_type=6&pn=1 (203.93.12.6) 240.93ms
+[I 161120 11:48:06 web:1946] 200 GET /static/sogou.png (203.93.12.6) 0.75ms
+[I 161120 11:48:06 web:1946] 200 GET /static/s360.png (203.93.12.6) 0.69ms
+[I 161120 11:48:06 web:1946] 200 GET /static/baidu.png (203.93.12.6) 0.68ms
+[I 161120 11:48:06 web:1946] 200 GET /queryAll?q=%E5%BD%AD%E6%9D%8E%E4%BA%9A%E8%BF%90&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (111.207.250.61) 8.48ms
+[I 161120 11:48:06 web:1946] 200 GET /queryHeader?q=+%E9%BB%84%E9%BE%99%E6%B6%9B&pn=1&content_type=6 (203.93.12.6) 2.33ms
+[I 161120 11:48:06 web:1946] 200 GET /queryQita?q=+%E9%BB%84%E9%BE%99%E6%B6%9B+&xgss=true&pn=1&url_type=queryQita&q_type=1 (203.93.12.6) 3.46ms
+[I 161120 11:48:07 web:1946] 200 GET /queryHeader?q=+%E5%BD%AD%E6%9D%8E%E4%BA%9A%E8%BF%90&pn=1&content_type=2 (111.207.250.61) 2.30ms
+[I 161120 12:11:08 web:1946] 304 GET / (111.207.250.61) 1.67ms
+[I 161120 12:12:16 web:1946] 200 GET /queryAll?q=ming&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (111.207.250.61) 9.41ms
+[I 161120 12:12:16 web:1946] 200 GET /queryHeader?q=+ming&pn=1&content_type=2 (111.207.250.61) 3.37ms
+[I 161120 12:12:28 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 12:12:28 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 12:12:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 12:12:28 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 12:12:28 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 12:12:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 12:12:28 web:1946] 200 GET /suggest?term=ming (111.207.250.61) 243.53ms
+[I 161120 12:12:30 web:1946] 304 GET / (111.207.250.61) 1.58ms
+[I 161120 12:12:33 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.55ms
+[I 161120 12:12:34 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.48ms
+[I 161120 12:12:35 web:1946] 200 GET /queryAll?q=%E5%BD%AD%E4%B8%BD%E5%AA%9B&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (111.207.250.61) 9.24ms
+[I 161120 12:12:35 web:1946] 304 GET /queryHeader?q=+%E5%BD%AD%E4%B8%BD%E5%AA%9B&pn=1&content_type=2 (111.207.250.61) 2.88ms
+[I 161120 12:13:21 web:1946] 304 GET / (111.207.250.61) 1.69ms
+[I 161120 12:13:27 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.59ms
+[I 161120 12:13:28 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.55ms
+[I 161120 12:13:30 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.53ms
+[I 161120 12:13:33 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.55ms
+[I 161120 12:13:33 web:1946] 200 GET /queryAll?q=%E6%9E%97%E4%B8%B9&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (111.207.250.61) 9.70ms
+[I 161120 12:13:33 web:1946] 200 GET /queryHeader?q=+%E6%9E%97%E4%B8%B9&pn=1&content_type=2 (111.207.250.61) 2.76ms
+[I 161120 12:13:55 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 12:13:55 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 12:13:55 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 12:13:55 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 12:13:55 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 12:13:55 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 12:13:55 web:1946] 200 GET /suggest?term=%E6%9E%97%E4%B8%B9 (111.207.250.61) 237.71ms
+[I 161120 12:13:56 web:1946] 304 GET / (111.207.250.61) 1.64ms
+[I 161120 12:13:58 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.52ms
+[I 161120 12:14:00 web:1946] 304 GET /suggest?term=+ (111.207.250.61) 0.59ms
+[I 161120 12:14:02 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 12:14:02 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 12:14:02 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 12:14:02 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 12:14:02 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 12:14:02 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 12:14:02 web:1946] 200 GET /suggest?term=%E5%BA%84%E8%8D%A3%E6%96%87 (111.207.250.61) 224.78ms
+[I 161120 12:14:02 web:1946] 200 GET /queryAll?q=%E5%BA%84%E8%8D%A3%E6%96%87&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (111.207.250.61) 9.32ms
+[I 161120 12:14:02 web:1946] 200 GET /queryHeader?q=+%E5%BA%84%E8%8D%A3%E6%96%87&pn=1&content_type=2 (111.207.250.61) 2.80ms
+[I 161120 13:45:41 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 13:45:41 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 13:45:41 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 13:45:41 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 13:45:41 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 13:45:41 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 13:45:41 web:1946] 304 GET /suggest?term=%E5%BA%84%E8%8D%A3%E6%96%87 (111.207.250.61) 302.08ms
+[I 161120 13:48:19 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 13:48:19 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161120 13:48:19 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161120 13:48:19 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161120 13:48:19 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161120 13:48:19 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161120 13:48:19 web:1946] 304 GET /suggest?term=%E5%BA%84%E8%8D%A3%E6%96%87 (111.207.250.61) 220.04ms
+[I 161120 13:54:33 web:1946] 200 GET /queryAll?q=%E4%B9%A0%E4%BB%B2%E5%8B%8B%E4%B8%8E%E8%96%84%E4%B8%80%E6%B3%A2%E7%9F%9B%E7%9B%BE%E5%9B%A0%E6%9E%9C%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89%E5%A4%A7%E6%B1%87%E9%9B%86&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (114.242.244.18) 9.52ms
+[I 161120 13:54:33 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.18) 1.32ms
+[I 161120 13:54:33 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.18) 0.80ms
+[I 161120 13:54:33 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.18) 0.76ms
+[I 161120 13:54:33 web:1946] 200 GET /static/js/query.js (114.242.244.18) 0.67ms
+[I 161120 13:54:34 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.18) 0.75ms
+[I 161120 13:54:34 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.18) 0.75ms
+[I 161120 13:54:34 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.18) 276.27ms
+[I 161120 13:54:34 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.18) 314.78ms
+[I 161120 13:54:34 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.18) 539.34ms
+[I 161120 13:54:34 web:1946] 200 GET /queryHeader?q=+%E4%B9%A0%E4%BB%B2%E5%8B%8B%E4%B8%8E%E8%96%84%E4%B8%80%E6%B3%A2%E7%9F%9B%E7%9B%BE%E5%9B%A0%E6%9E%9C%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89%E5%A4%A7%E6%B1%87%E9%9B%86&pn=1&content_type=2 (114.242.244.18) 2.44ms
+[I 161120 13:54:34 web:1946] 200 GET /static/js/header.js (114.242.244.18) 0.69ms
+[I 161120 13:54:34 web:1946] 200 GET /static/title.jpg (114.242.244.18) 0.76ms
+[W 161120 13:54:36 web:1946] 404 GET /favicon.ico (114.242.244.18) 1.72ms
+[W 161120 14:00:14 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (163.172.169.116) 0.51ms
+[W 161120 14:28:45 web:1946] 404 GET /favicon.ico (202.106.173.77) 0.87ms
+[W 161120 15:06:43 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (94.102.49.174) 0.57ms
+[I 161120 16:13:21 web:1946] 200 GET /queryAll?q=%E4%B9%A0%E4%BB%B2%E5%8B%8B%E4%B8%8E%E8%96%84%E4%B8%80%E6%B3%A2%E7%9F%9B%E7%9B%BE%E5%9B%A0%E6%9E%9C%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89%E5%A4%A7%E6%B1%87%E9%9B%86&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (114.242.244.18) 10.29ms
+[I 161120 16:13:21 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.18) 0.86ms
+[I 161120 16:13:21 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.18) 0.77ms
+[I 161120 16:13:21 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.18) 0.81ms
+[I 161120 16:13:21 web:1946] 200 GET /static/js/query.js (114.242.244.18) 0.71ms
+[I 161120 16:13:21 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.18) 0.68ms
+[I 161120 16:13:21 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.18) 0.68ms
+[I 161120 16:13:21 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.18) 317.51ms
+[I 161120 16:13:21 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.18) 543.30ms
+[I 161120 16:13:22 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.18) 818.63ms
+[I 161120 16:13:22 web:1946] 200 GET /queryHeader?q=+%E4%B9%A0%E4%BB%B2%E5%8B%8B%E4%B8%8E%E8%96%84%E4%B8%80%E6%B3%A2%E7%9F%9B%E7%9B%BE%E5%9B%A0%E6%9E%9C%E5%8F%8A%E4%BA%8B%E4%BB%B6%E6%9D%A5%E9%BE%99%E5%8E%BB%E8%84%89%E5%A4%A7%E6%B1%87%E9%9B%86&pn=1&content_type=2 (114.242.244.18) 2.42ms
+[I 161120 16:13:22 web:1946] 200 GET /static/js/header.js (114.242.244.18) 0.71ms
+[I 161120 16:13:22 web:1946] 200 GET /static/title.jpg (114.242.244.18) 0.73ms
+[W 161120 16:13:27 web:1946] 404 GET /favicon.ico (114.242.244.18) 1.77ms
+[W 161120 17:38:27 web:1946] 404 GET /favicon.ico (202.106.173.77) 0.78ms
+[I 161120 19:38:39 web:1946] 200 GET /queryAll?q=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E2%80%9C%E4%BB%B0%E6%B3%B3%E8%80%85%E2%80%9D&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (114.242.244.18) 9.50ms
+[I 161120 19:38:39 web:1946] 200 GET /queryHeader?q=+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E2%80%9C%E4%BB%B0%E6%B3%B3%E8%80%85%E2%80%9D&pn=1&content_type=2 (114.242.244.18) 2.33ms
+[W 161120 19:38:41 web:1946] 404 GET /favicon.ico (114.242.244.18) 1.73ms
+[I 161120 20:03:41 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (111.201.231.170) 9.30ms
+[W 161120 20:03:41 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (111.201.231.170) 1.21ms
+[W 161120 20:03:41 web:1946] 404 GET /apple-touch-icon-120x120.png (111.201.231.170) 0.38ms
+[W 161120 20:03:41 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.201.231.170) 0.37ms
+[W 161120 20:03:41 web:1946] 404 GET /apple-touch-icon.png (111.201.231.170) 0.37ms
+[W 161120 20:03:41 web:1946] 404 GET /favicon.ico (111.201.231.170) 1.07ms
+[W 161120 20:03:41 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (111.201.231.170) 0.37ms
+[W 161120 20:03:41 web:1946] 404 GET /apple-touch-icon-120x120.png (111.201.231.170) 0.37ms
+[W 161120 20:03:41 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.201.231.170) 0.65ms
+[W 161120 20:03:41 web:1946] 404 GET /apple-touch-icon.png (111.201.231.170) 1.34ms
+[W 161120 20:03:41 web:1946] 404 GET /favicon.ico (111.201.231.170) 0.64ms
+[I 161120 21:04:33 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (111.201.231.170) 10.08ms
+[W 161120 21:04:33 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (111.201.231.170) 0.97ms
+[W 161120 21:04:33 web:1946] 404 GET /apple-touch-icon-120x120.png (111.201.231.170) 0.37ms
+[W 161120 21:04:33 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.201.231.170) 0.37ms
+[W 161120 21:04:33 web:1946] 404 GET /apple-touch-icon.png (111.201.231.170) 0.37ms
+[W 161120 21:04:33 web:1946] 404 GET /favicon.ico (111.201.231.170) 1.00ms
+[W 161120 21:04:33 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (111.201.231.170) 0.38ms
+[W 161120 21:04:33 web:1946] 404 GET /apple-touch-icon-120x120.png (111.201.231.170) 0.37ms
+[W 161120 21:04:33 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.201.231.170) 0.38ms
+[W 161120 21:04:33 web:1946] 404 GET /apple-touch-icon.png (111.201.231.170) 0.36ms
+[W 161120 21:04:33 web:1946] 404 GET /favicon.ico (111.201.231.170) 0.62ms

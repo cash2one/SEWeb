@@ -1,0 +1,539 @@
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_09_23' already exists
+  return cursor.execute(query, kwparameters or parameters)
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[I 160923 00:52:49 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (124.64.120.58) 13.06ms
+[W 160923 00:52:49 web:1946] 404 GET /apple-touch-icon-precomposed.png (124.64.120.58) 1.04ms
+[W 160923 00:52:49 web:1946] 404 GET /favicon.ico (124.64.120.58) 1.00ms
+[W 160923 00:52:49 web:1946] 404 GET /apple-touch-icon.png (124.64.120.58) 0.38ms
+[I 160923 00:52:49 web:1946] 304 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (124.64.120.58) 9.03ms
+[W 160923 00:52:49 web:1946] 404 GET /apple-touch-icon-precomposed.png (124.64.120.58) 0.90ms
+[W 160923 00:52:49 web:1946] 404 GET /apple-touch-icon.png (124.64.120.58) 0.37ms
+[I 160923 08:52:53 web:1946] 304 GET / (159.226.95.66) 1.81ms
+[W 160923 08:52:53 web:1946] 404 GET /favicon.ico (159.226.95.66) 1.81ms
+[I 160923 08:52:59 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 08:52:59 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 08:52:59 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 08:52:59 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 08:52:59 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 08:52:59 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 08:53:01 web:1946] 200 GET /suggest?term=as (159.226.95.66) 2040.20ms
+[I 160923 08:53:02 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 08:53:02 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 08:53:02 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 08:53:02 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 08:53:02 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 08:53:02 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 08:53:02 web:1946] 200 GET /suggest?term=xijin (159.226.95.66) 302.53ms
+[I 160923 08:53:02 web:1946] 200 GET /queryAll?q=xijin&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (159.226.95.66) 9.69ms
+[I 160923 08:53:02 web:1946] 200 GET /queryHeader?q=+xijin&pn=1&content_type=2 (159.226.95.66) 2.62ms
+[I 160923 08:53:05 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 160923 08:53:05 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 160923 08:53:05 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 160923 08:53:06 web:1946] 200 GET /queryAll?q=xijin&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (159.226.95.66) 609.38ms
+[I 160923 08:53:06 web:1946] 200 GET /queryHeader?q=+xijin&pn=1&content_type=7 (159.226.95.66) 2.40ms
+[I 160923 08:53:06 web:1946] 200 GET /queryQita?q=+xijin+&xgss=true&pn=1&url_type=queryQita&q_type=2 (159.226.95.66) 5.58ms
+[I 160923 08:56:02 web:1946] 200 GET /queryAll?q=xijin&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (180.153.201.66) 10.04ms
+[I 160923 08:56:02 web:1946] 200 GET /static/js/jquery.min.js (180.153.201.66) 99.27ms
+[I 160923 08:56:02 web:1946] 200 GET /static/js/bootstrap.min.js (180.153.201.66) 1.10ms
+[I 160923 08:56:02 web:1946] 200 GET /static/js/query.js (180.153.201.66) 0.68ms
+[I 160923 08:56:03 web:1946] 200 GET /static/js/jquery-ui.min.js (180.153.201.66) 190.89ms
+[I 160923 08:56:03 web:1946] 200 GET /static/js/jquery.json.min.js (180.153.201.66) 0.73ms
+[I 160923 08:56:03 web:1946] 200 GET /static/js/jquery.cookie.js (180.153.201.66) 0.68ms
+[I 160923 08:56:03 web:1946] 200 GET /queryHeader?q=+xijin&pn=1&content_type=2 (180.153.201.66) 2.52ms
+[I 160923 08:56:03 web:1946] 200 GET /static/js/jquery.min.js (180.153.201.66) 93.78ms
+[I 160923 08:56:03 web:1946] 200 GET /static/js/bootstrap.min.js (180.153.201.66) 0.79ms
+[I 160923 08:56:04 web:1946] 200 GET /static/js/jquery-ui.min.js (180.153.201.66) 133.67ms
+[I 160923 08:56:04 web:1946] 200 GET /static/js/jquery.json.min.js (180.153.201.66) 0.68ms
+[I 160923 08:56:04 web:1946] 200 GET /static/js/jquery.cookie.js (180.153.201.66) 0.68ms
+[I 160923 08:56:04 web:1946] 200 GET /static/js/header.js (180.153.201.66) 0.67ms
+[I 160923 08:56:06 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 160923 08:56:06 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 160923 08:56:06 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 160923 08:56:06 web:1946] 200 GET /queryAll?q=xijin&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (101.226.33.216) 596.38ms
+[I 160923 08:56:06 web:1946] 200 GET /static/js/jquery.min.js (101.226.33.216) 92.85ms
+[I 160923 08:56:07 web:1946] 200 GET /static/js/bootstrap.min.js (101.226.33.216) 0.79ms
+[I 160923 08:56:07 web:1946] 200 GET /static/js/query.js (101.226.33.216) 0.67ms
+[I 160923 08:56:07 web:1946] 200 GET /static/js/jquery-ui.min.js (101.226.33.216) 124.94ms
+[I 160923 08:56:07 web:1946] 200 GET /static/js/jquery.json.min.js (101.226.33.216) 0.69ms
+[I 160923 08:56:07 web:1946] 200 GET /static/js/jquery.cookie.js (101.226.33.216) 0.67ms
+[I 160923 08:56:07 web:1946] 200 GET /queryHeader?q=+xijin&pn=1&content_type=7 (101.226.33.216) 2.42ms
+[I 160923 08:56:08 web:1946] 200 GET /static/js/jquery.min.js (101.226.33.216) 93.55ms
+[I 160923 08:56:08 web:1946] 200 GET /static/js/bootstrap.min.js (101.226.33.216) 0.79ms
+[I 160923 08:56:08 web:1946] 200 GET /static/js/jquery-ui.min.js (101.226.33.216) 141.01ms
+[I 160923 08:56:08 web:1946] 200 GET /static/js/jquery.json.min.js (101.226.33.216) 0.69ms
+[I 160923 08:56:08 web:1946] 200 GET /static/js/jquery.cookie.js (101.226.33.216) 0.68ms
+[I 160923 08:56:08 web:1946] 200 GET /static/js/header.js (101.226.33.216) 0.67ms
+[I 160923 09:12:08 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:12:08 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:12:08 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:12:08 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:12:08 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:12:08 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:12:09 web:1946] 200 GET /suggest?term=%E4%B9%8B%E6%B1%9F%E6%96%B0%E8%AF%AD+%E6%94%BF%E4%BA%8B (202.106.173.114) 1340.80ms
+[I 160923 09:12:11 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:12:11 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:12:11 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:12:11 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:12:11 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:12:11 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:12:12 web:1946] 200 GET /suggest?term=%E6%98%AF%E4%B8%80%E5%90%8D (202.106.173.114) 329.45ms
+[I 160923 09:12:14 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:12:14 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:12:14 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:12:14 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:12:14 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:12:14 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:12:14 web:1946] 200 GET /suggest?term=%E5%8D%81%E4%B8%80 (202.106.173.114) 312.63ms
+[I 160923 09:12:15 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:12:15 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:12:15 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:12:15 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:12:15 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:12:16 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:12:16 web:1946] 200 GET /suggest?term=%E5%8D%81%E4%B8%80%E5%90%8D (202.106.173.114) 252.38ms
+[I 160923 09:20:48 web:1946] 200 GET / (114.242.244.194) 1.62ms
+[I 160923 09:20:48 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.194) 0.84ms
+[I 160923 09:20:48 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.194) 0.77ms
+[I 160923 09:20:48 web:1946] 200 GET /static/css/bootstrap-switch.min.css (114.242.244.194) 0.73ms
+[I 160923 09:20:48 web:1946] 200 GET /static/js/bootstrap-switch.min.js (114.242.244.194) 0.75ms
+[I 160923 09:20:48 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.194) 1.03ms
+[I 160923 09:20:48 web:1946] 200 GET /static/js/index.js (114.242.244.194) 0.69ms
+[I 160923 09:20:48 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.194) 0.69ms
+[I 160923 09:20:48 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.194) 0.69ms
+[I 160923 09:20:49 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.194) 451.25ms
+[I 160923 09:20:49 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.194) 479.59ms
+[I 160923 09:20:49 web:1946] 200 GET /static/cnm4.jpg (114.242.244.194) 0.79ms
+[I 160923 09:20:49 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.194) 936.24ms
+[I 160923 09:20:49 web:1946] 200 GET /static/title1.jpg (114.242.244.194) 0.68ms
+[W 160923 09:20:50 web:1946] 404 GET /favicon.ico (114.242.244.194) 1.60ms
+[I 160923 09:20:52 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:52 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:20:52 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:20:52 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:20:52 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:20:52 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:57 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC%E7%99%BE%E4%B8%87%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6%E5%86%8D%E6%8E%80%E9%A3%8E%E6%9A%B4 (114.242.244.194) 5093.80ms
+[I 160923 09:20:57 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:57 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:20:57 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:20:57 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:20:57 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:20:57 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:58 web:1946] 200 GET /suggest?term=%E5%8D%81%E4%B9%9D%E5%A4%A7++ (202.106.173.114) 602.98ms
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:20:58 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:58 web:1946] 200 GET /suggest?term=%E5%8D%81%E4%B9%9D%E5%A4%A7++%E4%BA%BA%E4%BA%8B (202.106.173.114) 692.65ms
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:20:58 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:20:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:59 web:1946] 200 GET /suggest?term=%E5%8D%81%E4%B9%9D%E5%A4%A7++%E4%BA%BA%E4%BA%8B+ (202.106.173.114) 236.26ms
+[I 160923 09:20:59 web:1946] 200 GET /queryAll?q=%E5%8D%81%E4%B9%9D%E5%A4%A7%20%20%E4%BA%BA%E4%BA%8B%20&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.114) 9.73ms
+[I 160923 09:20:59 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:20:59 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:20:59 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:20:59 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:20:59 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:20:59 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:21:04 web:1946] 304 GET /suggest?term=%E5%8D%81%E4%B9%9D%E5%A4%A7++%E4%BA%BA%E4%BA%8B+ (202.106.173.114) 5165.50ms
+[I 160923 09:21:04 web:1946] 200 GET /queryAll?q=%E5%B7%B4%E5%93%88%E9%A9%AC%E7%99%BE%E4%B8%87%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6%E5%86%8D%E6%8E%80%E9%A3%8E%E6%9A%B4&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (114.242.244.194) 9.71ms
+[I 160923 09:21:04 web:1946] 200 GET /queryHeader?q=+%E5%8D%81%E4%B9%9D%E5%A4%A7%20%20%E4%BA%BA%E4%BA%8B&pn=1&content_type=2 (202.106.173.114) 2.32ms
+[I 160923 09:21:04 web:1946] 200 GET /static/js/query.js (114.242.244.194) 0.77ms
+[I 160923 09:21:04 web:1946] 200 GET /queryHeader?q=+%E5%B7%B4%E5%93%88%E9%A9%AC%E7%99%BE%E4%B8%87%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6%E5%86%8D%E6%8E%80%E9%A3%8E%E6%9A%B4&pn=1&content_type=2 (114.242.244.194) 2.36ms
+[I 160923 09:21:04 web:1946] 200 GET /static/title.jpg (114.242.244.194) 0.75ms
+[I 160923 09:21:04 web:1946] 200 GET /static/js/header.js (114.242.244.194) 0.67ms
+[I 160923 09:21:59 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:21:59 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:21:59 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:21:59 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:21:59 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:22:04 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:22:04 web:1946] 304 GET /suggest?term=%E5%8D%81%E4%B9%9D%E5%A4%A7++%E4%BA%BA%E4%BA%8B (202.106.173.114) 5583.35ms
+[I 160923 09:22:13 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:22:13 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:22:13 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:22:13 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:22:13 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:22:13 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:22:13 web:1946] 200 GET /suggest?term=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF (202.106.173.114) 304.77ms
+[I 160923 09:22:14 web:1946] 200 GET /queryAll?q=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.114) 9.46ms
+[I 160923 09:22:14 web:1946] 200 GET /queryHeader?q=+%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF&pn=1&content_type=2 (202.106.173.114) 2.34ms
+[I 160923 09:37:32 web:1946] 304 GET / (202.43.148.166) 1.57ms
+[W 160923 09:37:33 web:1946] 404 GET /favicon.ico (202.43.148.166) 1.54ms
+[I 160923 09:37:36 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:37:36 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:37:36 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:37:36 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:37:36 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:37:36 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:37:37 web:1946] 200 GET /suggest?term=xi (202.43.148.166) 281.60ms
+[I 160923 09:37:37 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:37:37 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:37:37 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:37:37 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:37:37 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:37:37 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:37:37 web:1946] 200 GET /suggest?term=xi%27jin%27p (202.43.148.166) 320.32ms
+[I 160923 09:37:37 web:1946] 304 GET /queryAll?q=%E4%B9%A0%E8%BF%91%E5%B9%B3&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (202.43.148.166) 9.64ms
+[I 160923 09:37:38 web:1946] 304 GET /queryHeader?q=+%E4%B9%A0%E8%BF%91%E5%B9%B3&pn=1&content_type=2 (202.43.148.166) 2.57ms
+[I 160923 09:40:03 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:40:03 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:40:03 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:40:03 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:40:03 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:40:04 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:40:04 web:1946] 304 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC%E7%99%BE%E4%B8%87%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6%E5%86%8D%E6%8E%80%E9%A3%8E%E6%9A%B4 (114.242.244.194) 715.09ms
+[I 160923 09:40:04 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 09:40:04 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 09:40:04 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 09:40:04 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 09:40:04 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 09:40:06 web:1946] 200 GET /suggest?term=%E6%B6%89%E5%8F%8A%E4%B8%89%EF%BC%8E%E4%B8%89%E8%90%AC%E5%90%8D%E4%B8%AD%E5%9C%8B%E4%BA%BA%E5%A3%AB (114.242.244.194) 2174.88ms
+[I 160923 10:31:28 web:1946] 200 GET /queryAll?q=%E6%B6%89%E5%8F%8A%E4%B8%89%EF%BC%8E%E4%B8%89%E8%90%AC%E5%90%8D%E4%B8%AD%E5%9C%8B%E4%BA%BA%E5%A3%AB&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (114.242.244.194) 9.74ms
+[I 160923 10:31:29 web:1946] 200 GET /queryHeader?q=+%E6%B6%89%E5%8F%8A%E4%B8%89%EF%BC%8E%E4%B8%89%E8%90%AC%E5%90%8D%E4%B8%AD%E5%9C%8B%E4%BA%BA%E5%A3%AB&pn=1&content_type=2 (114.242.244.194) 2.34ms
+[I 160923 10:52:14 web:1946] 304 GET /queryAll?q=%E4%B9%A0%E8%BF%91%E5%B9%B3%20%E9%99%88%E5%A5%8E%E5%BE%B7&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 10.09ms
+[I 160923 10:52:14 web:1946] 304 GET /queryHeader?q=+%E4%B9%A0%E8%BF%91%E5%B9%B3%20%E9%99%88%E5%A5%8E%E5%BE%B7&pn=1&content_type=2 (202.106.173.35) 2.33ms
+[W 160923 10:52:19 web:1946] 404 GET /favicon.ico (202.106.173.35) 1.86ms
+[I 160923 10:52:33 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 10:52:33 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:33 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 10:52:33 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 10:52:33 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 10:52:33 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:34 web:1946] 304 GET /suggest?term=%E4%B9%A0%E8%BF%91%E5%B9%B3+%E9%99%88%E5%A5%8E%E5%BE%B7 (202.106.173.35) 763.61ms
+[I 160923 10:52:34 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:34 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 10:52:34 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 10:52:34 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 10:52:34 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 10:52:39 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:44 web:1946] 200 GET /suggest?term=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F (202.106.173.35) 10114.43ms
+[I 160923 10:52:44 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:44 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 10:52:44 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 10:52:44 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 10:52:44 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 10:52:44 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:45 web:1946] 200 GET /suggest?term=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F+ (202.106.173.35) 696.03ms
+[I 160923 10:52:45 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:45 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 10:52:45 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 10:52:45 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 10:52:45 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 10:52:45 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:50 web:1946] 200 GET /suggest?term=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F+%E9%BD%90%E6%A1%A5%E6%A1%A5 (202.106.173.35) 5173.95ms
+[I 160923 10:52:50 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:50 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 10:52:50 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 10:52:50 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 10:52:50 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 10:52:50 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 10:52:50 web:1946] 200 GET /suggest?term=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F+ (202.106.173.35) 365.93ms
+[I 160923 10:52:50 web:1946] 200 GET /queryAll?q=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F%20%E9%BD%90%E6%A1%A5%E6%A1%A5&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.69ms
+[I 160923 10:52:50 web:1946] 200 GET /queryHeader?q=+%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F%20%E9%BD%90%E6%A1%A5%E6%A1%A5&pn=1&content_type=2 (202.106.173.35) 2.33ms
+[I 160923 11:05:33 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:05:33 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:05:33 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:05:33 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:05:33 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:05:33 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:05:33 web:1946] 304 GET /suggest?term=%E6%B6%89%E5%8F%8A%E4%B8%89%EF%BC%8E%E4%B8%89%E8%90%AC%E5%90%8D%E4%B8%AD%E5%9C%8B%E4%BA%BA%E5%A3%AB (114.242.244.194) 556.22ms
+[I 160923 11:10:06 web:1946] 304 GET /queryAll?q=%E4%B9%A0%E8%BF%91%E5%B9%B3%20%E9%99%88%E5%A5%8E%E5%BE%B7&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.60ms
+[I 160923 11:10:07 web:1946] 304 GET /queryHeader?q=+%E4%B9%A0%E8%BF%91%E5%B9%B3%20%E9%99%88%E5%A5%8E%E5%BE%B7&pn=1&content_type=2 (202.106.173.35) 3.08ms
+[I 160923 11:10:09 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:10:09 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:10:09 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:10:09 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:10:09 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:10:09 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:10:14 web:1946] 304 GET /suggest?term=%E4%B9%A0%E8%BF%91%E5%B9%B3+%E9%99%88%E5%A5%8E%E5%BE%B7 (202.106.173.35) 5280.86ms
+[I 160923 11:10:14 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:10:14 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:10:14 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:10:14 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:10:14 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:10:15 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:10:15 web:1946] 200 GET /suggest?term=%E7%BF%92%E8%BF%91%E5%B9%B3%E8%83%9E%E5%A7%90 (202.106.173.35) 546.31ms
+[I 160923 11:10:15 web:1946] 200 GET /queryAll?q=%E7%BF%92%E8%BF%91%E5%B9%B3%E8%83%9E%E5%A7%90&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.24ms
+[I 160923 11:10:15 web:1946] 200 GET /queryHeader?q=+%E7%BF%92%E8%BF%91%E5%B9%B3%E8%83%9E%E5%A7%90&pn=1&content_type=2 (202.106.173.35) 2.54ms
+[I 160923 11:10:38 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:10:38 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:10:38 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:10:38 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:10:38 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:10:38 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:10:38 web:1946] 304 GET /suggest?term=%E7%BF%92%E8%BF%91%E5%B9%B3%E8%83%9E%E5%A7%90 (202.106.173.35) 230.35ms
+[I 160923 11:10:39 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:10:39 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:10:39 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:10:39 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:10:39 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:10:39 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:10:44 web:1946] 200 GET /suggest?term=%E7%BF%92+%E8%83%9E%E5%A7%90 (202.106.173.35) 5091.22ms
+[I 160923 11:10:44 web:1946] 200 GET /queryAll?q=%E7%BF%92%20%E8%83%9E%E5%A7%90&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.41ms
+[W 160923 11:10:44 web:1946] 404 GET /static/css/images/ui-bg_glass_75_dadada_1x400.png (202.106.173.35) 1.59ms
+[I 160923 11:10:44 web:1946] 200 GET /queryHeader?q=+%E7%BF%92%20%E8%83%9E%E5%A7%90&pn=1&content_type=2 (202.106.173.35) 2.68ms
+[I 160923 11:11:24 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:24 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:24 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:24 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:24 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:11:24 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:24 web:1946] 304 GET /suggest?term=%E7%BF%92+%E8%83%9E%E5%A7%90 (202.106.173.35) 248.34ms
+[I 160923 11:11:26 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:26 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:26 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:26 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:26 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:11:26 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:27 web:1946] 200 GET /suggest?term=baham (202.106.173.35) 579.67ms
+[I 160923 11:11:27 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:27 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:27 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:27 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:11:27 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:27 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:28 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+li (202.106.173.35) 268.81ms
+[I 160923 11:11:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:28 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:28 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:28 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:11:28 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:28 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+lian (202.106.173.35) 250.80ms
+[I 160923 11:11:29 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:29 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:29 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:29 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:29 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:11:30 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:30 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+likai (202.106.173.35) 549.12ms
+[I 160923 11:11:30 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:30 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:30 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:11:30 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:30 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:30 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:31 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+%E7%A6%BBan (202.106.173.35) 1245.59ms
+[I 160923 11:11:31 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:31 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:31 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:31 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:31 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:11:32 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:32 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+%E7%A6%BB%E5%B2%B8 (202.106.173.35) 1282.41ms
+[I 160923 11:11:32 web:1946] 200 GET /queryAll?q=%E5%B7%B4%E5%93%88%E9%A9%AC%20%E7%A6%BB%E5%B2%B8&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.18ms
+[I 160923 11:11:33 web:1946] 200 GET /queryHeader?q=+%E5%B7%B4%E5%93%88%E9%A9%AC%20%E7%A6%BB%E5%B2%B8&pn=1&content_type=2 (202.106.173.35) 2.31ms
+[I 160923 11:11:48 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:48 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:48 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:48 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:11:48 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:48 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:55 web:1946] 304 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+%E7%A6%BB%E5%B2%B8 (202.106.173.35) 7098.99ms
+[I 160923 11:11:55 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:11:55 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:11:55 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:11:55 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:11:55 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:12:01 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:06 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+%E7%A6%BB%E5%B2%B8+%E4%B9%A0 (202.106.173.35) 10081.51ms
+[I 160923 11:12:06 web:1946] 200 GET /queryAll?q=%E5%B7%B4%E5%93%88%E9%A9%AC%20%E7%A6%BB%E5%B2%B8%20%E4%B9%A0&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.34ms
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:12:06 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:06 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+%E7%A6%BB%E5%B2%B8+ (202.106.173.35) 457.76ms
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:12:06 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:12:06 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:11 web:1946] 200 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+%E7%A6%BB%E5%B2%B8+xi (202.106.173.35) 5115.91ms
+[I 160923 11:12:11 web:1946] 200 GET /queryAll?q=%E5%B7%B4%E5%93%88%E9%A9%AC%20%E7%A6%BB%E5%B2%B8%20%E4%B9%A0&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.27ms
+[I 160923 11:12:11 web:1946] 200 GET /queryAll?q=%E5%B7%B4%E5%93%88%E9%A9%AC%20%E7%A6%BB%E5%B2%B8%20%E4%B9%A0&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 8.51ms
+[I 160923 11:12:11 web:1946] 200 GET /queryHeader?q=+%E5%B7%B4%E5%93%88%E9%A9%AC%20%E7%A6%BB%E5%B2%B8%20%E4%B9%A0&pn=1&content_type=2 (202.106.173.35) 2.78ms
+[I 160923 11:12:39 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:12:39 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:39 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:12:39 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:12:39 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:12:39 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:39 web:1946] 304 GET /suggest?term=%E5%B7%B4%E5%93%88%E9%A9%AC+%E7%A6%BB%E5%B2%B8+%E4%B9%A0 (202.106.173.35) 273.56ms
+[I 160923 11:12:40 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:12:40 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:40 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:12:40 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:12:40 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:12:40 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:41 web:1946] 200 GET /suggest?term=%E7%99%BE%E4%B8%87%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6 (202.106.173.35) 631.02ms
+[I 160923 11:12:41 web:1946] 200 GET /queryAll?q=%E7%99%BE%E4%B8%87%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.05ms
+[I 160923 11:12:41 web:1946] 200 GET /queryHeader?q=+%E7%99%BE%E4%B8%87%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6&pn=1&content_type=2 (202.106.173.35) 2.64ms
+[I 160923 11:12:57 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:57 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:12:57 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:12:57 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:12:57 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:12:57 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:57 web:1946] 304 GET /suggest?term=%E7%99%BE%E4%B8%87%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6 (202.106.173.35) 461.51ms
+[I 160923 11:12:58 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:12:58 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 11:12:58 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 11:12:58 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 11:12:58 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 11:13:08 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 11:13:08 web:1946] 200 GET /suggest?term=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F (202.106.173.35) 10263.73ms
+[I 160923 11:13:08 web:1946] 200 GET /queryAll?q=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 9.10ms
+[I 160923 11:13:08 web:1946] 200 GET /queryAll?q=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 8.37ms
+[I 160923 11:13:08 web:1946] 200 GET /queryHeader?q=+%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F&pn=1&content_type=2 (202.106.173.35) 2.39ms
+[W 160923 12:36:46 web:1946] 404 HEAD http://115.236.176.134:3434/ (60.191.52.254) 1.14ms
+[W 160923 12:59:32 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.78.38) 0.57ms
+[I 160923 13:05:29 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 13:05:29 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 13:05:29 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 13:05:29 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 13:05:29 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 13:05:29 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 13:05:30 web:1946] 304 GET /suggest?term=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF (202.106.173.114) 535.24ms
+[I 160923 13:36:26 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 13:36:26 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 13:36:26 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 13:36:26 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 13:36:26 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 13:36:26 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 13:36:31 web:1946] 304 GET /suggest?term=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF (202.106.173.114) 5215.22ms
+[I 160923 14:08:02 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 14:08:02 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 14:08:02 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 14:08:02 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 14:08:02 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 14:08:02 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 14:08:07 web:1946] 304 GET /suggest?term=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF (202.106.173.114) 5098.51ms
+[I 160923 14:08:11 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 14:08:11 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 14:08:11 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 14:08:11 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 14:08:11 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 14:08:11 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 14:08:11 web:1946] 304 GET /suggest?term=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF (202.106.173.114) 464.07ms
+[I 160923 14:09:02 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 14:09:02 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 14:09:02 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 14:09:02 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 14:09:02 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 14:09:02 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 14:09:03 web:1946] 304 GET /suggest?term=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF (202.106.173.114) 687.36ms
+[I 160923 14:17:56 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 14:17:56 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 14:17:56 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 14:17:56 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 14:17:56 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 14:17:56 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 14:18:01 web:1946] 304 GET /suggest?term=%E6%B9%96%E5%8C%97%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E6%99%93%E4%B8%9C%E5%87%BA%E4%BB%BB%E6%B9%96%E5%8C%97%E4%BB%A3%E7%9C%81%E9%95%BF%EF%BC%8C%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E7%8E%8B%E4%B8%9C%E5%B3%B0%E4%BB%BB%E5%A4%A9%E6%B4%A5%E4%BB%A3%E5%B8%82%E9%95%BF (202.106.173.114) 5154.57ms
+[W 160923 14:30:32 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (94.102.49.174) 0.56ms
+[W 160923 17:17:42 web:1946] 404 GET http://www.izhongsai.com/ (101.200.126.64) 0.56ms
+[I 160923 17:26:54 web:1946] 200 GET /queryAll?q=%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F%20%E9%BD%90%E6%A1%A5%E6%A1%A5&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.35) 10.00ms
+[I 160923 17:26:54 web:1946] 200 GET /queryHeader?q=+%E5%9B%BD%E9%99%85%E8%B0%83%E6%9F%A5%E8%AE%B0%E8%80%85%E5%90%8C%E7%9B%9F%20%E9%BD%90%E6%A1%A5%E6%A1%A5&pn=1&content_type=2 (202.106.173.35) 2.32ms
+[I 160923 18:38:47 web:1946] 200 GET / (106.39.222.36) 1.50ms
+[I 160923 18:38:47 web:1946] 200 GET /static/css/font-awesome.min.css (106.39.222.36) 0.83ms
+[I 160923 18:38:47 web:1946] 200 GET /static/css/jquery-ui.min.css (106.39.222.36) 0.79ms
+[I 160923 18:38:47 web:1946] 200 GET /static/css/bootstrap-switch.min.css (106.39.222.36) 0.68ms
+[I 160923 18:38:48 web:1946] 200 GET /static/js/bootstrap.min.js (106.39.222.36) 0.82ms
+[I 160923 18:38:48 web:1946] 200 GET /static/js/bootstrap-switch.min.js (106.39.222.36) 0.81ms
+[I 160923 18:38:48 web:1946] 200 GET /static/js/jquery.json.min.js (106.39.222.36) 0.70ms
+[I 160923 18:38:48 web:1946] 200 GET /static/js/jquery.min.js (106.39.222.36) 427.87ms
+[I 160923 18:38:48 web:1946] 200 GET /static/js/jquery.cookie.js (106.39.222.36) 0.72ms
+[I 160923 18:38:48 web:1946] 200 GET /static/css/bootstrap.min.css (106.39.222.36) 505.54ms
+[I 160923 18:38:48 web:1946] 200 GET /static/js/jquery-ui.min.js (106.39.222.36) 525.39ms
+[I 160923 18:38:48 web:1946] 200 GET /static/js/index.js (106.39.222.36) 0.74ms
+[I 160923 18:38:48 web:1946] 200 GET /static/cnm4.jpg (106.39.222.36) 0.78ms
+[I 160923 18:38:49 web:1946] 200 GET /static/title1.jpg (106.39.222.36) 0.69ms
+[W 160923 18:38:49 web:1946] 404 GET /favicon.ico (106.39.222.36) 1.68ms
+[I 160923 19:55:21 web:1946] 304 GET / (111.205.110.130) 1.73ms
+[W 160923 19:55:22 web:1946] 404 GET /favicon.ico (111.205.110.130) 1.58ms
+[I 160923 19:55:26 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 19:55:26 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 19:55:26 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 19:55:26 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 19:55:26 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 19:55:26 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 19:55:31 web:1946] 200 GET /suggest?term=ren (111.205.110.130) 5094.70ms
+[I 160923 19:55:31 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 19:55:31 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 19:55:31 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 19:55:31 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 19:55:31 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 19:55:31 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 19:55:32 web:1946] 200 GET /suggest?term=re (111.205.110.130) 462.75ms
+[I 160923 19:55:35 web:1946] 200 GET /queryAll?q=renlianshibie&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=1&pn=1 (111.205.110.130) 9.40ms
+[I 160923 19:55:35 web:1946] 304 GET /static/js/query.js (111.205.110.130) 0.66ms
+[I 160923 19:55:35 web:1946] 200 GET /queryHeader?q=+renlianshibie&pn=1&content_type=1 (111.205.110.130) 2.69ms
+[I 160923 19:55:35 web:1946] 304 GET /static/js/header.js (111.205.110.130) 0.67ms
+[I 160923 19:55:35 web:1946] 304 GET /static/title.jpg (111.205.110.130) 0.64ms
+[I 160923 19:55:35 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 19:55:35 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160923 19:55:35 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160923 19:55:35 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160923 19:55:35 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160923 19:55:36 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160923 19:55:36 web:1946] 200 GET /suggest?term=renlianshibie (111.205.110.130) 282.23ms
+[I 160923 20:33:25 web:1946] 200 GET /queryAll?baidu=true&bing=false&china_so=false&content_type=1&filte=false&pn=1&q=renlianshibie&s360=true&shen_ma=false&sogou=true (123.125.71.112) 9.61ms
+[I 160923 21:12:01 web:1946] 304 GET / (111.205.110.130) 1.79ms

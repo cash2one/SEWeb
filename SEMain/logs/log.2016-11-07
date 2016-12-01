@@ -1,0 +1,281 @@
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_11_07' already exists
+  return cursor.execute(query, kwparameters or parameters)
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[I 161107 02:50:15 web:1946] 200 GET / (87.106.166.220) 4.10ms
+[W 161107 05:47:55 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (94.102.49.174) 1.28ms
+[I 161107 07:58:48 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (120.52.92.109) 10.90ms
+[W 161107 07:58:48 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (120.52.92.109) 0.98ms
+[W 161107 07:58:48 web:1946] 404 GET /apple-touch-icon-120x120.png (120.52.92.109) 0.38ms
+[W 161107 07:58:48 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.37ms
+[W 161107 07:58:48 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.38ms
+[W 161107 07:58:48 web:1946] 404 GET /favicon.ico (120.52.92.109) 1.00ms
+[W 161107 07:58:48 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (120.52.92.109) 0.37ms
+[W 161107 07:58:49 web:1946] 404 GET /apple-touch-icon-120x120.png (120.52.92.109) 0.37ms
+[W 161107 07:58:49 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.38ms
+[W 161107 07:58:49 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.37ms
+[W 161107 07:58:49 web:1946] 404 GET /favicon.ico (120.52.92.109) 0.62ms
+[I 161107 09:06:48 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (120.52.92.109) 9.81ms
+[W 161107 09:06:48 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (120.52.92.109) 1.13ms
+[W 161107 09:06:48 web:1946] 404 GET /apple-touch-icon-120x120.png (120.52.92.109) 0.39ms
+[W 161107 09:06:48 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.38ms
+[W 161107 09:06:48 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.38ms
+[W 161107 09:06:48 web:1946] 404 GET /favicon.ico (120.52.92.109) 1.03ms
+[W 161107 09:06:48 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (120.52.92.109) 0.38ms
+[W 161107 09:06:48 web:1946] 404 GET /apple-touch-icon-120x120.png (120.52.92.109) 0.37ms
+[W 161107 09:06:48 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.37ms
+[W 161107 09:06:48 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.37ms
+[W 161107 09:06:48 web:1946] 404 GET /favicon.ico (120.52.92.109) 0.62ms
+[I 161107 11:41:31 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (111.205.110.130) 9.76ms
+[W 161107 11:41:32 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.205.110.130) 1.11ms
+[W 161107 11:41:32 web:1946] 404 GET /apple-touch-icon.png (111.205.110.130) 0.38ms
+[W 161107 11:41:32 web:1946] 404 GET /favicon.ico (111.205.110.130) 1.04ms
+[W 161107 11:41:32 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.205.110.130) 0.39ms
+[W 161107 11:41:32 web:1946] 404 GET /apple-touch-icon.png (111.205.110.130) 0.38ms
+[W 161107 11:41:32 web:1946] 404 GET /favicon.ico (111.205.110.130) 0.63ms
+[I 161107 11:41:33 web:1946] 304 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (111.205.110.130) 10.08ms
+[W 161107 11:41:33 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.205.110.130) 1.05ms
+[W 161107 11:41:33 web:1946] 404 GET /apple-touch-icon.png (111.205.110.130) 0.39ms
+[W 161107 11:41:34 web:1946] 404 GET /favicon.ico (111.205.110.130) 1.24ms
+[W 161107 11:41:34 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.205.110.130) 0.38ms
+[W 161107 11:41:34 web:1946] 404 GET /apple-touch-icon.png (111.205.110.130) 0.55ms
+[W 161107 11:41:34 web:1946] 404 GET /favicon.ico (111.205.110.130) 0.69ms
+[W 161107 13:20:00 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.78.38) 0.57ms
+[W 161107 15:46:26 web:1946] 404 HEAD http://wap.ip138.com/ (60.191.52.254) 0.52ms
+[I 161107 16:28:38 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (111.205.110.130) 10.31ms
+[W 161107 16:28:41 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.205.110.130) 1.19ms
+[W 161107 16:28:41 web:1946] 404 GET /apple-touch-icon.png (111.205.110.130) 0.37ms
+[W 161107 16:28:41 web:1946] 404 GET /favicon.ico (111.205.110.130) 1.05ms
+[W 161107 16:28:44 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.205.110.130) 0.47ms
+[W 161107 16:28:48 web:1946] 404 GET /apple-touch-icon.png (111.205.110.130) 0.50ms
+[W 161107 16:28:48 web:1946] 404 GET /favicon.ico (111.205.110.130) 0.68ms
+[I 161107 16:28:49 web:1946] 304 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (111.205.110.130) 9.84ms
+[W 161107 16:28:49 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.205.110.130) 1.06ms
+[W 161107 16:28:49 web:1946] 404 GET /apple-touch-icon.png (111.205.110.130) 0.38ms
+[W 161107 16:28:49 web:1946] 404 GET /favicon.ico (111.205.110.130) 1.02ms
+[W 161107 16:28:49 web:1946] 404 GET /apple-touch-icon-precomposed.png (111.205.110.130) 0.38ms
+[W 161107 16:28:49 web:1946] 404 GET /apple-touch-icon.png (111.205.110.130) 0.37ms
+[W 161107 16:28:49 web:1946] 404 GET /favicon.ico (111.205.110.130) 0.63ms
+[I 161107 18:35:43 web:1946] 200 GET /queryAll?q=as&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (127.0.0.1) 11.01ms
+[I 161107 19:30:08 web:1946] 200 GET / (159.226.95.66) 1.64ms
+[I 161107 19:30:11 web:1946] 200 GET /static/css/font-awesome.min.css (159.226.95.66) 6.20ms
+[I 161107 19:30:11 web:1946] 200 GET /static/css/jquery-ui.min.css (159.226.95.66) 1.29ms
+[I 161107 19:30:11 web:1946] 200 GET /static/css/bootstrap-switch.min.css (159.226.95.66) 1.21ms
+[I 161107 19:30:11 web:1946] 304 GET /static/js/jquery.min.js (159.226.95.66) 1.28ms
+[I 161107 19:30:11 web:1946] 304 GET /static/js/jquery-ui.min.js (159.226.95.66) 1.13ms
+[I 161107 19:30:11 web:1946] 304 GET /static/js/bootstrap.min.js (159.226.95.66) 0.71ms
+[I 161107 19:30:11 web:1946] 304 GET /static/js/bootstrap-switch.min.js (159.226.95.66) 0.63ms
+[I 161107 19:30:11 web:1946] 304 GET /static/js/index.js (159.226.95.66) 0.60ms
+[I 161107 19:30:11 web:1946] 200 GET /static/css/bootstrap.min.css (159.226.95.66) 13.75ms
+[I 161107 19:30:11 web:1946] 304 GET /static/js/jquery.json.min.js (159.226.95.66) 0.62ms
+[I 161107 19:30:11 web:1946] 304 GET /static/js/jquery.cookie.js (159.226.95.66) 0.61ms
+[I 161107 19:30:11 web:1946] 200 GET /static/cnm4.jpg (159.226.95.66) 0.93ms
+[I 161107 19:30:11 web:1946] 200 GET /static/title1.jpg (159.226.95.66) 0.67ms
+[W 161107 19:30:11 web:1946] 404 GET /favicon.ico (159.226.95.66) 1.78ms
+[I 161107 19:30:21 web:1946] 200 GET / (180.153.163.190) 1.67ms
+[I 161107 19:30:21 web:1946] 200 GET /static/js/jquery.min.js (180.153.163.190) 137.74ms
+[I 161107 19:30:21 web:1946] 200 GET /static/js/jquery-ui.min.js (180.153.163.190) 174.23ms
+[I 161107 19:30:21 web:1946] 200 GET /static/js/bootstrap.min.js (180.153.163.190) 0.81ms
+[I 161107 19:30:22 web:1946] 200 GET /static/js/bootstrap-switch.min.js (180.153.163.190) 0.73ms
+[I 161107 19:30:22 web:1946] 200 GET /static/js/index.js (180.153.163.190) 0.67ms
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 19:30:22 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 19:30:22 web:1946] 200 GET /suggest?term=q (159.226.95.66) 257.36ms
+[I 161107 19:30:22 web:1946] 200 GET /static/js/jquery.json.min.js (180.153.163.190) 0.71ms
+[I 161107 19:30:22 web:1946] 200 GET /static/js/jquery.cookie.js (180.153.163.190) 0.70ms
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 19:30:22 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 19:30:22 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 19:30:23 web:1946] 200 GET /suggest?term=qa (159.226.95.66) 289.55ms
+[W 161107 19:30:23 web:1946] 404 GET /static/css/images/ui-bg_glass_75_dadada_1x400.png (159.226.95.66) 1.32ms
+[I 161107 19:30:23 web:1946] 200 GET /queryAll?q=%E8%BF%81%E5%AE%89&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (159.226.95.66) 9.49ms
+[I 161107 19:30:23 web:1946] 200 GET /static/js/query.js (159.226.95.66) 0.70ms
+[I 161107 19:30:24 web:1946] 200 GET /queryHeader?q=+%E8%BF%81%E5%AE%89&pn=1&content_type=2 (159.226.95.66) 2.29ms
+[I 161107 19:30:24 web:1946] 200 GET /static/js/header.js (159.226.95.66) 0.68ms
+[I 161107 19:30:24 web:1946] 200 GET /static/title.jpg (159.226.95.66) 0.73ms
+[I 161107 19:30:33 web:1946] 200 GET /queryAll?q=%E8%BF%81%E5%AE%89&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (101.226.33.203) 9.83ms
+[I 161107 19:30:33 web:1946] 200 GET /static/js/jquery.min.js (101.226.33.203) 224.37ms
+[I 161107 19:30:33 web:1946] 200 GET /static/js/bootstrap.min.js (101.226.33.203) 0.81ms
+[I 161107 19:30:34 web:1946] 200 GET /static/js/query.js (101.226.33.203) 0.68ms
+[I 161107 19:30:34 web:1946] 200 GET /static/js/jquery-ui.min.js (101.226.33.203) 320.32ms
+[I 161107 19:30:34 web:1946] 200 GET /static/js/jquery.json.min.js (101.226.33.203) 0.70ms
+[I 161107 19:30:34 web:1946] 200 GET /static/js/jquery.cookie.js (101.226.33.203) 0.69ms
+[I 161107 19:30:35 web:1946] 200 GET /queryHeader?q=+%E8%BF%81%E5%AE%89&pn=1&content_type=2 (101.226.33.203) 2.55ms
+[I 161107 19:30:35 web:1946] 200 GET /static/js/jquery.min.js (101.226.33.203) 238.29ms
+[I 161107 19:30:35 web:1946] 200 GET /static/js/bootstrap.min.js (101.226.33.203) 0.79ms
+[I 161107 19:30:36 web:1946] 200 GET /static/js/jquery-ui.min.js (101.226.33.203) 345.39ms
+[I 161107 19:30:36 web:1946] 200 GET /static/js/jquery.json.min.js (101.226.33.203) 0.69ms
+[I 161107 19:30:36 web:1946] 200 GET /static/js/jquery.cookie.js (101.226.33.203) 0.69ms
+[I 161107 19:30:36 web:1946] 200 GET /static/js/header.js (101.226.33.203) 0.66ms
+[I 161107 19:30:43 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 19:30:43 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 19:30:43 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 19:30:43 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 19:30:43 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 19:30:43 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 19:30:43 web:1946] 200 GET /suggest?term=%E8%BF%81%E5%AE%89 (159.226.95.66) 273.30ms
+[I 161107 19:30:45 web:1946] 304 GET / (159.226.95.66) 1.46ms
+[I 161107 20:00:08 web:1946] 304 GET / (202.106.173.108) 1.55ms
+[I 161107 20:00:08 web:1946] 304 GET /static/css/font-awesome.min.css (202.106.173.108) 0.71ms
+[I 161107 20:00:08 web:1946] 304 GET /static/css/bootstrap.min.css (202.106.173.108) 0.89ms
+[I 161107 20:00:08 web:1946] 304 GET /static/css/jquery-ui.min.css (202.106.173.108) 0.64ms
+[I 161107 20:00:08 web:1946] 304 GET /static/js/jquery.min.js (202.106.173.108) 0.79ms
+[I 161107 20:00:08 web:1946] 304 GET /static/js/jquery-ui.min.js (202.106.173.108) 1.12ms
+[I 161107 20:00:08 web:1946] 304 GET /static/js/bootstrap.min.js (202.106.173.108) 0.67ms
+[I 161107 20:00:08 web:1946] 304 GET /static/js/jquery.json.min.js (202.106.173.108) 0.59ms
+[I 161107 20:00:08 web:1946] 304 GET /static/js/jquery.cookie.js (202.106.173.108) 0.58ms
+[W 161107 20:00:09 web:1946] 404 GET /favicon.ico (202.106.173.108) 1.77ms
+[I 161107 20:00:10 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 20:00:10 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 20:00:10 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 20:00:10 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 20:00:10 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 20:00:10 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 20:00:10 web:1946] 200 GET /suggest?term=%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E9%82%AA%E6%95%99%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6. (202.106.173.108) 225.23ms
+[I 161107 20:00:11 web:1946] 200 GET /queryAll?q=%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E9%82%AA%E6%95%99%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6.&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (202.106.173.108) 9.96ms
+[I 161107 20:00:11 web:1946] 304 GET /static/js/query.js (202.106.173.108) 0.66ms
+[I 161107 20:00:11 web:1946] 200 GET /queryHeader?q=+%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E9%82%AA%E6%95%99%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6.&pn=1&content_type=2 (202.106.173.108) 2.31ms
+[I 161107 20:00:11 web:1946] 304 GET /static/js/header.js (202.106.173.108) 0.60ms
+[I 161107 20:00:12 web:1946] 304 GET /static/title.jpg (202.106.173.108) 0.63ms
+[I 161107 20:00:55 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (120.52.92.109) 9.80ms
+[W 161107 20:00:55 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.99ms
+[W 161107 20:00:55 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.38ms
+[W 161107 20:00:55 web:1946] 404 GET /favicon.ico (120.52.92.109) 1.00ms
+[W 161107 20:00:55 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.38ms
+[W 161107 20:00:55 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.38ms
+[W 161107 20:00:55 web:1946] 404 GET /favicon.ico (120.52.92.109) 0.62ms
+[I 161107 20:00:55 web:1946] 304 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (120.52.92.109) 8.90ms
+[W 161107 20:00:55 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.90ms
+[W 161107 20:00:56 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.38ms
+[W 161107 20:00:56 web:1946] 404 GET /favicon.ico (120.52.92.109) 0.98ms
+[W 161107 20:00:56 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.38ms
+[W 161107 20:00:56 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.37ms
+[W 161107 20:00:56 web:1946] 404 GET /favicon.ico (120.52.92.109) 0.63ms
+[I 161107 20:03:26 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 20:03:26 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 20:03:26 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 20:03:26 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 20:03:26 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 20:03:26 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 20:03:26 web:1946] 304 GET /suggest?term=%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E9%82%AA%E6%95%99%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6. (202.106.173.108) 229.33ms
+[I 161107 20:03:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 20:03:28 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 20:03:28 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 20:03:28 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 20:03:28 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 20:03:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 20:03:28 web:1946] 200 GET /suggest?term=%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E9%82%AA%E6%95%99%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6.%E4%BB%A5%E2%80%9C%E5%85%A8%E8%83%BD%E7%A5%9E%E2%80%9D%E9%82%AA%E6%95%99%E4%B8%BA%E4%BE%8B (202.106.173.108) 228.94ms
+[I 161107 20:03:28 web:1946] 200 GET /queryAll?q=%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E9%82%AA%E6%95%99%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6.%E4%BB%A5%E2%80%9C%E5%85%A8%E8%83%BD%E7%A5%9E%E2%80%9D%E9%82%AA%E6%95%99%E4%B8%BA%E4%BE%8B&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.108) 9.67ms
+[I 161107 20:03:28 web:1946] 200 GET /queryHeader?q=+%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E9%82%AA%E6%95%99%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6.%E4%BB%A5%E2%80%9C%E5%85%A8%E8%83%BD%E7%A5%9E%E2%80%9D%E9%82%AA%E6%95%99%E4%B8%BA%E4%BE%8B&pn=1&content_type=2 (202.106.173.108) 2.66ms
+[I 161107 20:47:41 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (106.121.1.76) 9.56ms
+[W 161107 20:47:42 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.1.76) 1.13ms
+[W 161107 20:47:42 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.1.76) 0.39ms
+[W 161107 20:47:42 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.1.76) 0.37ms
+[W 161107 20:47:42 web:1946] 404 GET /apple-touch-icon.png (106.121.1.76) 0.37ms
+[W 161107 20:47:42 web:1946] 404 GET /favicon.ico (106.121.1.76) 1.05ms
+[W 161107 20:47:42 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.1.76) 0.38ms
+[W 161107 20:47:43 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.1.76) 0.37ms
+[W 161107 20:47:43 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.1.76) 0.38ms
+[W 161107 20:47:43 web:1946] 404 GET /apple-touch-icon.png (106.121.1.76) 0.38ms
+[W 161107 20:47:43 web:1946] 404 GET /favicon.ico (106.121.1.76) 0.64ms
+[I 161107 23:04:25 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (120.52.92.109) 9.80ms
+[W 161107 23:04:25 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.96ms
+[W 161107 23:04:25 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.37ms
+[W 161107 23:04:25 web:1946] 404 GET /favicon.ico (120.52.92.109) 1.01ms
+[W 161107 23:04:25 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.38ms
+[W 161107 23:04:25 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.39ms
+[W 161107 23:04:25 web:1946] 404 GET /favicon.ico (120.52.92.109) 0.63ms
+[I 161107 23:04:25 web:1946] 304 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (120.52.92.109) 9.03ms
+[W 161107 23:04:25 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.91ms
+[W 161107 23:04:25 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.37ms
+[W 161107 23:04:25 web:1946] 404 GET /favicon.ico (120.52.92.109) 0.97ms
+[W 161107 23:04:25 web:1946] 404 GET /apple-touch-icon-precomposed.png (120.52.92.109) 0.38ms
+[W 161107 23:04:25 web:1946] 404 GET /apple-touch-icon.png (120.52.92.109) 0.38ms
+[W 161107 23:04:25 web:1946] 404 GET /favicon.ico (120.52.92.109) 0.62ms
+[I 161107 23:30:03 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 23:30:03 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 23:30:03 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 23:30:03 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 23:30:03 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 23:30:03 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 23:30:04 web:1946] 304 GET /suggest?term=%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E9%82%AA%E6%95%99%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6.%E4%BB%A5%E2%80%9C%E5%85%A8%E8%83%BD%E7%A5%9E%E2%80%9D%E9%82%AA%E6%95%99%E4%B8%BA%E4%BE%8B (202.106.173.108) 443.37ms
+[I 161107 23:30:04 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 23:30:04 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 23:30:04 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 23:30:04 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 23:30:04 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 23:30:04 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 23:30:04 web:1946] 200 GET /suggest?term=%E9%A6%99%E6%B8%AF%E7%BB%88%E5%AE%A1%E6%B3%95%E9%99%A2%EF%BC%9A%E9%87%8A%E6%B3%95%E5%BD%B1%E5%93%8D%E6%9C%89%E9%99%90 (202.106.173.108) 353.83ms
+[I 161107 23:30:05 web:1946] 200 GET /queryAll?q=%E9%A6%99%E6%B8%AF%E7%BB%88%E5%AE%A1%E6%B3%95%E9%99%A2%EF%BC%9A%E9%87%8A%E6%B3%95%E5%BD%B1%E5%93%8D%E6%9C%89%E9%99%90&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.108) 9.79ms
+[I 161107 23:30:05 web:1946] 200 GET /queryHeader?q=+%E9%A6%99%E6%B8%AF%E7%BB%88%E5%AE%A1%E6%B3%95%E9%99%A2%EF%BC%9A%E9%87%8A%E6%B3%95%E5%BD%B1%E5%93%8D%E6%9C%89%E9%99%90&pn=1&content_type=2 (202.106.173.108) 2.32ms
+[I 161107 23:30:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 23:30:28 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 23:30:28 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 23:30:28 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 23:30:28 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 23:30:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 23:30:28 web:1946] 304 GET /suggest?term=%E9%A6%99%E6%B8%AF%E7%BB%88%E5%AE%A1%E6%B3%95%E9%99%A2%EF%BC%9A%E9%87%8A%E6%B3%95%E5%BD%B1%E5%93%8D%E6%9C%89%E9%99%90 (202.106.173.108) 219.34ms
+[I 161107 23:30:30 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 23:30:30 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161107 23:30:30 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161107 23:30:30 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161107 23:30:30 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161107 23:30:30 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161107 23:30:30 web:1946] 200 GET /suggest?term=%E9%A6%99%E6%B8%AF%E7%BB%88%E5%AE%A1%E6%B3%95%E9%99%A2%E9%87%8A%E6%B3%95%E5%BD%B1%E5%93%8D%E6%9C%89%E9%99%90 (202.106.173.108) 219.25ms
+[I 161107 23:30:31 web:1946] 200 GET /queryAll?q=%E9%A6%99%E6%B8%AF%E7%BB%88%E5%AE%A1%E6%B3%95%E9%99%A2%20%E9%87%8A%E6%B3%95%E5%BD%B1%E5%93%8D%E6%9C%89%E9%99%90&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (202.106.173.108) 9.15ms
+[I 161107 23:30:31 web:1946] 200 GET /queryHeader?q=+%E9%A6%99%E6%B8%AF%E7%BB%88%E5%AE%A1%E6%B3%95%E9%99%A2%20%E9%87%8A%E6%B3%95%E5%BD%B1%E5%93%8D%E6%9C%89%E9%99%90&pn=1&content_type=2 (202.106.173.108) 2.38ms

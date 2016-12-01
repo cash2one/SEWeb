@@ -1,0 +1,137 @@
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_10_06' already exists
+  return cursor.execute(query, kwparameters or parameters)
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_10_06' already exists
+  return cursor.execute(query, kwparameters or parameters)
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[W 161006 03:17:13 web:1946] 404 HEAD http://180.163.113.82/check_proxy (180.97.106.161) 1.70ms
+[W 161006 05:20:09 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (163.172.173.62) 0.46ms
+[W 161006 13:25:13 web:1946] 405 CONNECT search.yahoo.com:443 (221.13.5.146) 0.52ms
+[W 161006 15:25:28 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.78.38) 0.49ms
+[W 161006 15:25:32 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.78.38) 0.52ms
+[W 161006 18:16:30 web:1946] 404 GET http://125.209.222.141 (14.106.98.255) 0.52ms
+[I 161006 21:31:23 web:1946] 200 GET / (124.16.251.44) 4.00ms
+[I 161006 21:31:24 web:1946] 200 GET /static/css/font-awesome.min.css (124.16.251.44) 5.99ms
+[I 161006 21:31:24 web:1946] 200 GET /static/css/jquery-ui.min.css (124.16.251.44) 0.79ms
+[I 161006 21:31:24 web:1946] 200 GET /static/css/bootstrap-switch.min.css (124.16.251.44) 0.70ms
+[I 161006 21:31:24 web:1946] 200 GET /static/css/bootstrap.min.css (124.16.251.44) 106.99ms
+[I 161006 21:31:24 web:1946] 200 GET /static/js/bootstrap.min.js (124.16.251.44) 0.89ms
+[I 161006 21:31:24 web:1946] 200 GET /static/js/bootstrap-switch.min.js (124.16.251.44) 0.88ms
+[I 161006 21:31:24 web:1946] 200 GET /static/js/index.js (124.16.251.44) 0.69ms
+[I 161006 21:31:24 web:1946] 200 GET /static/js/jquery.min.js (124.16.251.44) 219.38ms
+[I 161006 21:31:24 web:1946] 200 GET /static/js/jquery.json.min.js (124.16.251.44) 0.68ms
+[I 161006 21:31:24 web:1946] 200 GET /static/js/jquery.cookie.js (124.16.251.44) 0.67ms
+[I 161006 21:31:24 web:1946] 200 GET /static/js/jquery-ui.min.js (124.16.251.44) 334.56ms
+[I 161006 21:31:24 web:1946] 200 GET /static/cnm4.jpg (124.16.251.44) 1.05ms
+[I 161006 21:31:24 web:1946] 200 GET /static/title1.jpg (124.16.251.44) 0.77ms
+[W 161006 21:31:25 web:1946] 404 GET /favicon.ico (124.16.251.44) 1.62ms
+[I 161006 21:32:03 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:32:03 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161006 21:32:03 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161006 21:32:03 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161006 21:32:03 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161006 21:32:04 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:32:04 web:1946] 200 GET /suggest?term=han (124.16.251.44) 829.90ms
+[I 161006 21:32:05 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:32:05 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161006 21:32:05 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161006 21:32:05 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161006 21:32:05 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161006 21:32:05 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:32:06 web:1946] 200 GET /suggest?term=jizhong (124.16.251.44) 533.83ms
+[I 161006 21:32:06 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161006 21:32:06 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161006 21:32:06 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161006 21:32:06 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:32:06 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161006 21:32:06 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:32:11 web:1946] 200 GET /suggest?term=jizhong+h (124.16.251.44) 5315.00ms
+[I 161006 21:32:11 web:1946] 200 GET /queryAll?q=jizhong%20han&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (124.16.251.44) 10.08ms
+[I 161006 21:32:11 web:1946] 200 GET /queryAll?q=jizhong%20han&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (124.16.251.44) 8.54ms
+[I 161006 21:32:11 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161006 21:32:11 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:32:11 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161006 21:32:11 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161006 21:32:11 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161006 21:32:11 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:32:12 web:1946] 200 GET /suggest?term=jizhong+han (124.16.251.44) 537.50ms
+[I 161006 21:32:12 web:1946] 200 GET /static/js/query.js (124.16.251.44) 0.81ms
+[I 161006 21:32:12 web:1946] 200 GET /queryHeader?q=+jizhong%20han&pn=1&content_type=2 (124.16.251.44) 2.54ms
+[I 161006 21:32:12 web:1946] 200 GET /static/js/header.js (124.16.251.44) 0.70ms
+[I 161006 21:32:12 web:1946] 200 GET /static/title.jpg (124.16.251.44) 0.72ms
+[I 161006 21:33:12 web:1946] 200 GET /queryAll?q=jizhong%20han&china_so=true&bing=true&shen_ma=true&content_type=2&pn=1 (124.16.251.44) 9.51ms
+[I 161006 21:33:13 web:1946] 304 GET /queryHeader?q=+jizhong%20han&pn=1&content_type=2 (124.16.251.44) 2.35ms
+[I 161006 21:33:20 web:1946] 200 GET /queryAll?q=jizhong%20han&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (124.16.251.44) 9.78ms
+[I 161006 21:33:20 web:1946] 304 GET /queryHeader?q=+jizhong%20han&pn=1&content_type=2 (124.16.251.44) 2.29ms
+[I 161006 21:33:23 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:33:23 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161006 21:33:23 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161006 21:33:23 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161006 21:33:23 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161006 21:33:28 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161006 21:33:29 web:1946] 200 GET /queryAll?q=jizhong%20han&baidu=true&s360=true&sogou=true&content_type=6&pn=1 (124.16.251.44) 5590.86ms
+[I 161006 21:33:29 web:1946] 200 GET /queryHeader?q=+jizhong%20han&pn=1&content_type=6 (124.16.251.44) 2.79ms
+[I 161006 21:33:29 web:1946] 200 GET /queryQita?q=+jizhong%20han+&xgss=true&pn=1&url_type=queryQita&q_type=1 (124.16.251.44) 4.44ms
+[I 161006 21:33:38 web:1946] 200 GET /queryAll?q=jizhong%20han&baidu=true&s360=true&sogou=true&content_type=4&pn=1 (124.16.251.44) 10.19ms
+[I 161006 21:33:39 web:1946] 200 GET /queryHeader?q=+jizhong%20han&pn=1&content_type=4 (124.16.251.44) 2.28ms
+[I 161006 21:33:39 connectionpool:207] Starting new HTTP connection (1): www.baidu.com
+[I 161006 21:33:39 web:1946] 200 GET /recommend?q=+jizhong%20han+&baidu=true&pn=1&url_type=recommend (124.16.251.44) 527.75ms
+[I 161006 21:33:39 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161006 21:33:40 web:1946] 200 GET /recommend?q=+jizhong%20han+&sogou=true&pn=1&url_type=recommend (124.16.251.44) 619.14ms
+[I 161006 21:33:40 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161006 21:33:40 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161006 21:33:40 web:1946] 200 GET /recommend?q=+jizhong%20han+&s360=true&pn=1&url_type=recommend (124.16.251.44) 325.08ms
+[I 161006 21:33:40 web:1946] 200 GET /static/baidu.png (124.16.251.44) 0.81ms
+[I 161006 21:33:40 web:1946] 200 GET /static/sogou.png (124.16.251.44) 0.68ms
+[I 161006 21:33:40 web:1946] 200 GET /static/s360.png (124.16.251.44) 0.99ms
+[I 161006 21:33:42 connectionpool:758] Starting new HTTPS connection (1): www.baidu.com
+[I 161006 21:33:42 connectionpool:207] Starting new HTTP connection (1): www.sogou.com
+[I 161006 21:33:42 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161006 21:33:43 web:1946] 200 GET /queryAll?q=jizhong%20han&baidu=true&s360=true&sogou=true&content_type=7&pn=1 (124.16.251.44) 863.48ms
+[I 161006 21:33:43 web:1946] 200 GET /queryHeader?q=+jizhong%20han&pn=1&content_type=7 (124.16.251.44) 2.34ms
+[I 161006 21:33:43 web:1946] 200 GET /queryQita?q=+jizhong%20han+&xgss=true&pn=1&url_type=queryQita&q_type=2 (124.16.251.44) 4.63ms
+[I 161006 21:33:50 connectionpool:207] Starting new HTTP connection (1): 220.181.111.188
+[I 161006 21:33:50 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161006 21:33:50 connectionpool:207] Starting new HTTP connection (1): www.so.com
+[I 161006 21:33:50 connectionpool:758] Starting new HTTPS connection (1): www.so.com
+[I 161006 21:33:50 web:1946] 200 GET /queryAll?q=jizhong%20han&baidu=true&s360=true&sogou=true&content_type=8&pn=1 (124.16.251.44) 792.00ms
+[I 161006 21:33:50 web:1946] 200 GET /queryHeader?q=+jizhong%20han&pn=1&content_type=8 (124.16.251.44) 2.35ms
+[I 161006 21:33:51 web:1946] 200 GET /queryQita?q=+jizhong%20han+&xgss=true&pn=1&url_type=queryQita&q_type=3 (124.16.251.44) 3.71ms

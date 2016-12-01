@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>聚合搜索</title>
+        <link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/jquery-ui.min.js" type="text/javascript"></script>
+	    <script type="text/javascript" src="static/js/jquery.json.min.js"></script>
+        <script type="text/javascript" src="static/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="static/js/query.js"></script>
+        <script type="text/javascript" src="static/js/scroll-util.js"></script>
+
+        <style>
+        .ui-autocomplete {
+            max-height: 200px;
+            overflow-y: auto;
+            /* 防止水平滚动条 */
+            overflow-x: hidden;
+        }
+        .rec-a {
+            margin-right:10px;
+            text-decoration: underline;
+        }
+        .rec-div {
+            font-size:12px;
+        }
+        .page-index {
+            font-weight: 700;
+            font-size: 16px;
+            height: 16px;
+            line-height: 16px;
+            margin: 31px 0 5px 0;
+            color: #4f4f4f;
+        }
+        /* IE 6 不支持 max-height
+        * 使用 height 代替，但是这会强制菜单总是显示为那个高度
+        */
+        * html .ui-autocomplete {
+            height: 100px;
+        }
+
+        table tbody tr td{
+            width: 175px;
+            line-height: 22px;
+        }
+        a:hover{
+            cursor:pointer;
+        }
+        a{
+            text-decoration: underline;
+        }
+        </style>
+ <script type="text/javascript">
+     window.onscroll = function () {
+        if (getScrollTop() + getClientHeight() == getScrollHeight()) {
+            //alert("到达底部");
+            var search = $('#current_search_cache').val();
+            var current_page = parseInt($('#current_page_cache').val());
+            var url_type = $('#url_type').val();
+
+            var opt = { "q" :"{{ searchword }}", "pn":current_page+1,"url_type":url_type,"is_ajax":true};
+            opt[search] = "true";
+            $.getJSON('/queryPhoto',opt,function(data){
+                if(data.status!=1){
+                    console.log("获取图片失败，return status 0.");
+                }else{
+                    var page_index = '<div><p class="page-index">第'+(current_page+1)+'页</p></div>';
+                    $("#img_container").append(page_index);
+                    for(var i=0;i<data[search].length;i++){
+                        var img =$('<div style="display: inline-block;margin-right: 2px;"><img src="'+data[search][i]+'" width="160" height="120"/></div>');
+                        $("#img_container").append(img);
+                    }
+                    $('#current_page_cache').val(current_page+1);
+                    console.log("成功获取第["+(current_page+1)+"]页图片");
+                }
+
+            });
+        }
+     }
+    $(function () {
+         {% for search in search_dict %}
+            if("{{search_dict[search]}}" == "true"){
+                $('#logo').attr("src","/static/{{search}}.png");
+                $('#current_search_cache').val("{{search}}");
+            }
+        {% end %}
+
+        $("input").keydown(function (e) {
+            if (e.keyCode == 13) {
+                 page_click($('#current_search_cache').val(),1);
+             }
+         });
+        $("#3").css("color","#000000");
+
+        var _im =$("img:eq('1')")[0];
+         $("img:eq('0')").height();
+        console.log($("img:eq('1')").width(),$("img:eq('1')").height());
+
+    });
+
+ </script>
+
+    </head>
+
+    <body>
+        {% autoescape None %}
+        <div class="col-md-8 col-md-offset-0" style="margin-top:20px;">
+            {{ modules.HeaderItem("6") }}
+
+            <div class="col-md-2 ">
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6 col-md-offset-1" style="display:none;">
+            <div class="input-group" style="margin-top:15px;">
+                <input id="query_input" type="text" class="form-control" value="{{ searchword }}" 　placeholder="Search for..."   />
+                <span class="input-group-btn">
+                    <button id="form_sub" class="btn btn-default" type="button" onclick="page_click($('#current_search_cache').val(),1)">Go!</button>
+                    <input type="hidden" id="current_search_cache" value=""/>
+                    <input type="hidden" id="current_page_cache" value="{{pn}}"/>
+                    <input type="hidden" id="url_type" value="{{url_type}}"/>
+                </span>
+            </div>
+        </div>
+
+        <div id="img_container" class="col-md-6 col-md-offset-1 " style="margin-top:10px;">
+            {% if len(img_list) == 0%}
+            <h3  style="text-align:left;font-weight:bold;line-height:30px;font-size:16px;">此引擎没有图片信息</h3>
+            {%end%}
+            {% for img in img_list %}
+              <div style="display: inline-block;margin-right: 2px;"><img src="{{img}}" width="160" height="120"/></div>
+            {% end %}
+        </div>
+
+    </body>
+</html>

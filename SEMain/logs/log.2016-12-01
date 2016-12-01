@@ -1,0 +1,230 @@
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_12_01' already exists
+  return cursor.execute(query, kwparameters or parameters)
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 539, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 539, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 539, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 539, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 539, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[W 161201 03:16:23 web:1946] 404 HEAD http://180.163.113.82/check_proxy (180.97.106.37) 1.73ms
+[I 161201 07:16:38 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (106.121.10.237) 7.83ms
+[W 161201 07:16:38 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.10.237) 0.96ms
+[W 161201 07:16:38 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.10.237) 0.38ms
+[W 161201 07:16:38 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.10.237) 0.38ms
+[W 161201 07:16:38 web:1946] 404 GET /apple-touch-icon.png (106.121.10.237) 0.38ms
+[W 161201 07:16:38 web:1946] 404 GET /favicon.ico (106.121.10.237) 0.99ms
+[W 161201 07:16:38 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.10.237) 0.38ms
+[W 161201 07:16:39 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.10.237) 0.41ms
+[W 161201 07:16:39 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.10.237) 0.41ms
+[W 161201 07:16:39 web:1946] 404 GET /apple-touch-icon.png (106.121.10.237) 0.66ms
+[W 161201 07:16:39 web:1946] 404 GET /favicon.ico (106.121.10.237) 0.72ms
+[I 161201 09:14:01 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (106.121.79.248) 7.37ms
+[W 161201 09:14:02 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.79.248) 1.66ms
+[W 161201 09:14:02 web:1946] 404 GET /apple-touch-icon.png (106.121.79.248) 0.54ms
+[W 161201 09:14:02 web:1946] 404 GET /favicon.ico (106.121.79.248) 1.21ms
+[W 161201 09:14:02 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.79.248) 0.54ms
+[W 161201 09:14:02 web:1946] 404 GET /apple-touch-icon.png (106.121.79.248) 0.55ms
+[W 161201 09:14:02 web:1946] 404 GET /favicon.ico (106.121.79.248) 0.81ms
+[I 161201 09:14:02 web:1946] 304 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (106.121.79.248) 5.37ms
+[W 161201 09:14:02 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.79.248) 1.03ms
+[W 161201 09:14:02 web:1946] 404 GET /apple-touch-icon.png (106.121.79.248) 0.38ms
+[W 161201 09:14:03 web:1946] 404 GET /favicon.ico (106.121.79.248) 1.02ms
+[W 161201 09:14:03 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.79.248) 0.40ms
+[W 161201 09:14:03 web:1946] 404 GET /apple-touch-icon.png (106.121.79.248) 0.38ms
+[W 161201 09:14:03 web:1946] 404 GET /favicon.ico (106.121.79.248) 0.66ms
+[I 161201 12:42:29 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (106.121.10.237) 5.16ms
+[W 161201 12:42:30 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.10.237) 1.10ms
+[W 161201 12:42:30 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.10.237) 0.38ms
+[W 161201 12:42:30 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.10.237) 0.39ms
+[W 161201 12:42:30 web:1946] 404 GET /apple-touch-icon.png (106.121.10.237) 0.37ms
+[W 161201 12:42:30 web:1946] 404 GET /favicon.ico (106.121.10.237) 1.03ms
+[W 161201 12:42:30 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.10.237) 0.38ms
+[W 161201 12:42:30 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.10.237) 0.37ms
+[W 161201 12:42:30 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.10.237) 0.38ms
+[W 161201 12:42:30 web:1946] 404 GET /apple-touch-icon.png (106.121.10.237) 0.37ms
+[W 161201 12:42:30 web:1946] 404 GET /favicon.ico (106.121.10.237) 0.64ms
+[I 161201 16:02:24 web:1946] 200 GET / (114.242.244.52) 1.65ms
+[I 161201 16:02:24 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.52) 0.80ms
+[I 161201 16:02:24 web:1946] 200 GET /static/css/bootstrap-switch.min.css (114.242.244.52) 0.72ms
+[I 161201 16:02:24 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.52) 0.79ms
+[I 161201 16:02:24 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.52) 0.84ms
+[I 161201 16:02:24 web:1946] 200 GET /static/js/bootstrap-switch.min.js (114.242.244.52) 0.74ms
+[I 161201 16:02:24 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.52) 22.11ms
+[I 161201 16:02:24 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.52) 45.82ms
+[I 161201 16:02:24 web:1946] 200 GET /static/js/index.js (114.242.244.52) 0.70ms
+[I 161201 16:02:24 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.52) 0.68ms
+[I 161201 16:02:24 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.52) 0.70ms
+[I 161201 16:02:24 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.52) 205.88ms
+[I 161201 16:02:24 web:1946] 200 GET /static/cnm4.jpg (114.242.244.52) 0.79ms
+[I 161201 16:02:24 web:1946] 200 GET /static/title1.jpg (114.242.244.52) 0.68ms
+[W 161201 16:02:24 web:1946] 404 GET /favicon.ico (114.242.244.52) 1.61ms
+[I 161201 16:02:25 web:1946] 200 GET /suggest?term= (114.242.244.52) 0.47ms
+[I 161201 16:02:27 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161201 16:02:27 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161201 16:02:27 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161201 16:02:27 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161201 16:02:27 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161201 16:02:27 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161201 16:02:28 web:1946] 200 GET /suggest?term=%E7%A6%BB%E5%BC%80%E5%89%8D%E7%9A%84%E5%BF%8F%E6%82%94--%E6%9D%8E%E5%85%88%E5%BF%B5%E7%8E%8B%E9%9C%87%E4%B9%A0%E4%BB%B2%E5%8B%8B%E7%B0%BF%E4%B8%80%E6%B3%A2%E6%99%9A%E5%B9%B4%E6%AD%A3%E7%A1%AE%E8%AE%A4%E8%AF%86%E4%BA%86%E6%AF%9B%E6%B3%BD%E4%B8%9C (114.242.244.52) 336.50ms
+[I 161201 16:02:30 web:1946] 200 GET /queryAll?q=%E7%A6%BB%E5%BC%80%E5%89%8D%E7%9A%84%E5%BF%8F%E6%82%94--%E6%9D%8E%E5%85%88%E5%BF%B5%E7%8E%8B%E9%9C%87%E4%B9%A0%E4%BB%B2%E5%8B%8B%E7%B0%BF%E4%B8%80%E6%B3%A2%E6%99%9A%E5%B9%B4%E6%AD%A3%E7%A1%AE%E8%AE%A4%E8%AF%86%E4%BA%86%E6%AF%9B%E6%B3%BD%E4%B8%9C&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (114.242.244.52) 5.23ms
+[I 161201 16:02:30 web:1946] 200 GET /static/js/query.js (114.242.244.52) 0.73ms
+[I 161201 16:02:30 web:1946] 200 GET /static/js/header.js (114.242.244.52) 0.70ms
+[I 161201 16:02:30 web:1946] 200 GET /static/title.jpg (114.242.244.52) 0.74ms
+[I 161201 16:02:31 web:1946] 200 GET /queryAll2?q=+%E7%A6%BB%E5%BC%80%E5%89%8D%E7%9A%84%E5%BF%8F%E6%82%94--%E6%9D%8E%E5%85%88%E5%BF%B5%E7%8E%8B%E9%9C%87%E4%B9%A0%E4%BB%B2%E5%8B%8B%E7%B0%BF%E4%B8%80%E6%B3%A2%E6%99%9A%E5%B9%B4%E6%AD%A3%E7%A1%AE%E8%AE%A4%E8%AF%86%E4%BA%86%E6%AF%9B%E6%B3%BD%E4%B8%9C&pn=1&content_type=2&baidu=true&s360=true&sogou=true&china_so=false&bing=false (114.242.244.52) 7.83ms
+[W 161201 16:24:04 web:1946] 404 GET /favicon.ico (202.106.173.108) 1.39ms
+[I 161201 16:24:07 web:1946] 200 GET / (202.106.173.108) 1.62ms
+[W 161201 16:25:47 web:1946] 404 GET /favicon.ico (114.247.31.9) 1.42ms
+[I 161201 16:25:56 web:1946] 200 GET / (114.247.31.9) 1.62ms
+[I 161201 16:25:56 web:1946] 200 GET /static/css/font-awesome.min.css (114.247.31.9) 0.82ms
+[I 161201 16:25:56 web:1946] 200 GET /static/css/jquery-ui.min.css (114.247.31.9) 0.79ms
+[I 161201 16:25:56 web:1946] 200 GET /static/css/bootstrap-switch.min.css (114.247.31.9) 0.72ms
+[I 161201 16:25:56 web:1946] 200 GET /static/css/bootstrap.min.css (114.247.31.9) 140.68ms
+[I 161201 16:25:56 web:1946] 200 GET /static/js/jquery.min.js (114.247.31.9) 135.26ms
+[I 161201 16:25:56 web:1946] 200 GET /static/js/bootstrap.min.js (114.247.31.9) 0.82ms
+[I 161201 16:25:56 web:1946] 200 GET /static/js/jquery-ui.min.js (114.247.31.9) 225.30ms
+[I 161201 16:25:56 web:1946] 200 GET /static/js/bootstrap-switch.min.js (114.247.31.9) 0.78ms
+[I 161201 16:25:56 web:1946] 200 GET /static/js/index.js (114.247.31.9) 0.67ms
+[I 161201 16:25:56 web:1946] 200 GET /static/js/jquery.json.min.js (114.247.31.9) 0.68ms
+[I 161201 16:25:56 web:1946] 200 GET /static/js/jquery.cookie.js (114.247.31.9) 0.69ms
+[I 161201 16:25:56 web:1946] 200 GET /static/cnm4.jpg (114.247.31.9) 0.78ms
+[I 161201 16:25:56 web:1946] 200 GET /static/title1.jpg (114.247.31.9) 0.67ms
+[I 161201 16:29:26 web:1946] 200 GET / (106.120.160.119) 1.56ms
+[I 161201 16:29:52 web:1946] 200 GET / (101.199.112.51) 1.54ms
+[I 161201 16:29:52 web:1946] 200 GET /static/css/font-awesome.min.css (101.199.112.51) 0.84ms
+[I 161201 16:29:52 web:1946] 200 GET /static/css/jquery-ui.min.css (101.199.112.51) 0.78ms
+[I 161201 16:29:52 web:1946] 200 GET /static/css/bootstrap-switch.min.css (101.199.112.51) 0.74ms
+[I 161201 16:29:52 web:1946] 200 GET /static/js/index.js (101.199.112.51) 0.69ms
+[I 161201 16:29:52 web:1946] 200 GET /static/js/bootstrap-switch.min.js (101.199.112.51) 0.73ms
+[I 161201 16:29:52 web:1946] 200 GET /static/js/bootstrap.min.js (101.199.112.51) 0.80ms
+[I 161201 16:29:52 web:1946] 200 GET /static/js/jquery.min.js (101.199.112.51) 7.03ms
+[I 161201 16:29:52 web:1946] 200 GET /static/js/jquery.json.min.js (101.199.112.51) 0.67ms
+[I 161201 16:29:52 web:1946] 200 GET /static/js/jquery.cookie.js (101.199.112.51) 0.77ms
+[I 161201 16:29:52 web:1946] 200 GET /static/css/bootstrap.min.css (101.199.112.51) 15.08ms
+[I 161201 16:29:52 web:1946] 200 GET /static/js/jquery-ui.min.js (101.199.112.51) 65.71ms
+[I 161201 16:37:33 web:1946] 200 GET / (159.226.95.66) 1.56ms
+[I 161201 16:37:33 web:1946] 200 GET /static/css/font-awesome.min.css (159.226.95.66) 0.82ms
+[I 161201 16:37:33 web:1946] 200 GET /static/css/bootstrap.min.css (159.226.95.66) 18.44ms
+[I 161201 16:37:33 web:1946] 200 GET /static/css/jquery-ui.min.css (159.226.95.66) 1.03ms
+[I 161201 16:37:33 web:1946] 200 GET /static/css/bootstrap-switch.min.css (159.226.95.66) 0.68ms
+[I 161201 16:37:33 web:1946] 200 GET /static/js/jquery.min.js (159.226.95.66) 0.97ms
+[I 161201 16:37:33 web:1946] 200 GET /static/js/jquery-ui.min.js (159.226.95.66) 60.07ms
+[I 161201 16:37:34 web:1946] 200 GET /static/js/bootstrap.min.js (159.226.95.66) 0.92ms
+[I 161201 16:37:34 web:1946] 200 GET /static/js/bootstrap-switch.min.js (159.226.95.66) 0.73ms
+[I 161201 16:37:34 web:1946] 200 GET /static/js/index.js (159.226.95.66) 0.67ms
+[I 161201 16:37:34 web:1946] 200 GET /static/js/jquery.json.min.js (159.226.95.66) 0.66ms
+[I 161201 16:37:34 web:1946] 200 GET /static/js/jquery.cookie.js (159.226.95.66) 0.68ms
+[I 161201 16:37:34 web:1946] 200 GET /static/cnm4.jpg (159.226.95.66) 0.76ms
+[I 161201 16:37:34 web:1946] 200 GET /static/title1.jpg (159.226.95.66) 0.69ms
+[W 161201 16:37:34 web:1946] 404 GET /favicon.ico (159.226.95.66) 1.57ms
+[I 161201 16:37:35 web:1946] 200 GET /suggest?term= (159.226.95.66) 0.45ms
+[I 161201 16:37:37 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 161201 16:37:37 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161201 16:37:37 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 161201 16:37:37 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 161201 16:37:37 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 161201 16:37:37 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 161201 16:37:37 web:1946] 200 GET /suggest?term=ming (159.226.95.66) 274.65ms
+[I 161201 16:37:38 web:1946] 200 GET /queryAll?q=ming&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=1&pn=1 (159.226.95.66) 5.28ms
+[I 161201 16:37:38 web:1946] 200 GET /static/js/query.js (159.226.95.66) 0.73ms
+[I 161201 16:37:38 web:1946] 200 GET /static/js/header.js (159.226.95.66) 0.66ms
+[I 161201 16:37:38 web:1946] 200 GET /static/title.jpg (159.226.95.66) 0.73ms
+[I 161201 16:37:39 web:1946] 200 GET /queryAll2?q=+ming&pn=1&content_type=1&baidu=true&s360=true&sogou=true&china_so=false&bing=false (159.226.95.66) 9.74ms
+[I 161201 16:37:40 web:1946] 200 GET /queryAll?q=+ming&china_so=true&bing=true&shen_ma=true&content_type=1&pn=1 (159.226.95.66) 4.88ms
+[I 161201 16:37:40 web:1946] 200 GET /queryAll2?q=+ming&pn=1&content_type=1&baidu=false&s360=false&sogou=false&china_so=true&bing=true (159.226.95.66) 8.19ms
+[E 161201 16:37:40 web:1524] Uncaught exception GET /queryNews?bing=true (159.226.95.66)
+    HTTPServerRequest(protocol='http', host='111.202.25.55:9999', method='GET', uri='/queryNews?bing=true', version='HTTP/1.1', remote_ip='159.226.95.66', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch', 'Host': '111.202.25.55:9999', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://111.202.25.55:9999/queryAll2?q=+ming&pn=1&content_type=1&baidu=false&s360=false&sogou=false&china_so=true&bing=true', 'Cookie': 'search_String="&china_so=true&bing=true"; search_other_String="&baidu=true&s360=true&sogou=true&shen_ma=true"', 'Upgrade-Insecure-Requests': '1'})
+    Traceback (most recent call last):
+      File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 267, in get
+        datalist = news_threading_page(query, pn, search_dict)
+    NameError: global name 'news_threading_page' is not defined
+[E 161201 16:37:40 web:1946] 500 GET /queryNews?bing=true (159.226.95.66) 1.44ms
+[I 161201 16:52:59 autoreload:204] /home/v-wxb-chai/workspace/webserver/SEMain/app.py modified; restarting server
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 16, in <module>
+    from info_search import getUrlDict,news_threading_pag
+ImportError: cannot import name news_threading_pag
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_12_01' already exists
+  return cursor.execute(query, kwparameters or parameters)
+[W 161201 16:57:47 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.78.38) 1.80ms
+[W 161201 17:20:58 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (163.172.173.181) 0.49ms
+[I 161201 19:57:44 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (106.121.71.55) 7.99ms
+[W 161201 19:57:44 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.71.55) 0.98ms
+[W 161201 19:57:44 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.71.55) 0.39ms
+[W 161201 19:57:44 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.71.55) 0.38ms
+[W 161201 19:57:45 web:1946] 404 GET /apple-touch-icon.png (106.121.71.55) 0.37ms
+[W 161201 19:57:45 web:1946] 404 GET /favicon.ico (106.121.71.55) 1.00ms
+[W 161201 19:57:45 web:1946] 404 GET /apple-touch-icon-120x120-precomposed.png (106.121.71.55) 0.38ms
+[W 161201 19:57:45 web:1946] 404 GET /apple-touch-icon-120x120.png (106.121.71.55) 0.39ms
+[W 161201 19:57:45 web:1946] 404 GET /apple-touch-icon-precomposed.png (106.121.71.55) 0.38ms
+[W 161201 19:57:45 web:1946] 404 GET /apple-touch-icon.png (106.121.71.55) 0.38ms
+[W 161201 19:57:45 web:1946] 404 GET /favicon.ico (106.121.71.55) 0.65ms
+[I 161201 20:04:20 web:1946] 200 GET /queryAll?q=%E7%A6%BB%E5%BC%80%E5%89%8D%E7%9A%84%E5%BF%8F%E6%82%94--%E6%9D%8E%E5%85%88%E5%BF%B5%E7%8E%8B%E9%9C%87%E4%B9%A0%E4%BB%B2%E5%8B%8B%E7%B0%BF%E4%B8%80%E6%B3%A2%E6%99%9A%E5%B9%B4%E6%AD%A3%E7%A1%AE%E8%AE%A4%E8%AF%86%E4%BA%86%E6%AF%9B%E6%B3%BD%E4%B8%9C&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (114.242.244.52) 5.26ms
+[I 161201 20:04:20 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.52) 5.71ms
+[I 161201 20:04:20 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.52) 0.77ms
+[I 161201 20:04:20 web:1946] 200 GET /static/js/query.js (114.242.244.52) 0.70ms
+[I 161201 20:04:20 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.52) 0.92ms
+[I 161201 20:04:20 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.52) 0.66ms
+[I 161201 20:04:20 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.52) 0.70ms
+[I 161201 20:04:20 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.52) 14.25ms
+[I 161201 20:04:20 web:1946] 200 GET /static/js/header.js (114.242.244.52) 0.74ms
+[I 161201 20:04:20 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.52) 28.29ms
+[I 161201 20:04:20 web:1946] 200 GET /static/title.jpg (114.242.244.52) 0.74ms
+[I 161201 20:04:20 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.52) 38.34ms
+[I 161201 20:04:20 web:1946] 200 GET /queryAll2?q=+%E7%A6%BB%E5%BC%80%E5%89%8D%E7%9A%84%E5%BF%8F%E6%82%94--%E6%9D%8E%E5%85%88%E5%BF%B5%E7%8E%8B%E9%9C%87%E4%B9%A0%E4%BB%B2%E5%8B%8B%E7%B0%BF%E4%B8%80%E6%B3%A2%E6%99%9A%E5%B9%B4%E6%AD%A3%E7%A1%AE%E8%AE%A4%E8%AF%86%E4%BA%86%E6%AF%9B%E6%B3%BD%E4%B8%9C&pn=1&content_type=2&baidu=true&s360=true&sogou=true&china_so=false&bing=false (114.242.244.52) 7.96ms
+[W 161201 20:04:25 web:1946] 404 GET /favicon.ico (114.242.244.52) 1.40ms
+[I 161201 20:12:19 autoreload:204] /home/v-wxb-chai/workspace/webserver/SEMain/app.py modified; restarting server
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_12_01' already exists
+  return cursor.execute(query, kwparameters or parameters)
+[I 161201 20:14:28 autoreload:204] /home/v-wxb-chai/workspace/webserver/SEMain/app.py modified; restarting server
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 16, in <module>
+    from info_search import getUrlDict,news_threading_page
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/info_search.py", line 20, in <module>
+    from juna_search import baiduJuna_search, sogouJuna_search, bingJuna_search,chinaJuna2_search
+ImportError: No module named juna_search

@@ -1,0 +1,114 @@
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_09_27' already exists
+  return cursor.execute(query, kwparameters or parameters)
+/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/torndb.py:234: Warning: Table 'log2016_09_27' already exists
+  return cursor.execute(query, kwparameters or parameters)
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/v-wxb-chai/workspace/webserver/SEMain/app.py", line 438, in <module>
+    http_server.listen(options.port)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/site-packages/tornado/netutil.py", line 196, in bind_sockets
+    sock.bind(sockaddr)
+  File "/home/v-wxb-chai/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+[I 160927 01:15:23 web:1946] 200 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (124.64.120.58) 12.91ms
+[W 160927 01:15:23 web:1946] 404 GET /apple-touch-icon-precomposed.png (124.64.120.58) 1.17ms
+[W 160927 01:15:23 web:1946] 404 GET /favicon.ico (124.64.120.58) 1.05ms
+[W 160927 01:15:23 web:1946] 404 GET /apple-touch-icon.png (124.64.120.58) 0.38ms
+[I 160927 01:15:23 web:1946] 304 GET /queryAll?q=%E7%82%8E%E9%BB%84%E6%98%A5%E7%A7%8B%20%E6%9D%9C%E5%AF%BC%E6%AD%A3%20%E6%96%A9%E9%A6%96&baidu=true&s360=true&sogou=true&content_type=2&pn=1 (124.64.120.58) 9.11ms
+[W 160927 01:15:23 web:1946] 404 GET /apple-touch-icon-precomposed.png (124.64.120.58) 1.00ms
+[W 160927 01:15:23 web:1946] 404 GET /apple-touch-icon.png (124.64.120.58) 0.38ms
+[W 160927 05:13:45 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.78.38) 0.51ms
+[I 160927 09:06:33 web:1946] 200 GET / (114.242.244.232) 1.66ms
+[I 160927 09:06:33 web:1946] 200 GET /static/css/bootstrap-switch.min.css (114.242.244.232) 0.80ms
+[I 160927 09:06:33 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.232) 0.78ms
+[I 160927 09:06:33 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.232) 0.76ms
+[I 160927 09:06:33 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.232) 0.80ms
+[I 160927 09:06:33 web:1946] 200 GET /static/js/bootstrap-switch.min.js (114.242.244.232) 0.74ms
+[I 160927 09:06:34 web:1946] 200 GET /static/js/index.js (114.242.244.232) 0.67ms
+[I 160927 09:06:34 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.232) 0.67ms
+[I 160927 09:06:34 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.232) 0.69ms
+[I 160927 09:06:34 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.232) 538.99ms
+[I 160927 09:06:34 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.232) 669.51ms
+[I 160927 09:06:34 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.232) 940.07ms
+[I 160927 09:06:34 web:1946] 200 GET /static/cnm4.jpg (114.242.244.232) 0.80ms
+[I 160927 09:06:35 web:1946] 200 GET /static/title1.jpg (114.242.244.232) 0.67ms
+[W 160927 09:06:35 web:1946] 404 GET /favicon.ico (114.242.244.232) 1.57ms
+[W 160927 10:08:42 web:1946] 404 GET http://www.izhongsai.com/ (101.200.126.64) 0.53ms
+[W 160927 10:08:50 web:1946] 404 GET /favicon.ico (202.106.173.114) 0.86ms
+[I 160927 10:48:18 web:1946] 200 GET / (163.172.182.16) 1.71ms
+[W 160927 15:22:16 web:1946] 404 GET http://www.baidu.com/cache/global/img/gs.gif (172.82.166.210) 1.12ms
+[I 160927 16:06:46 web:1946] 200 GET / (159.226.95.79) 1.55ms
+[I 160927 16:06:46 web:1946] 200 GET /static/css/font-awesome.min.css (159.226.95.79) 0.83ms
+[I 160927 16:06:46 web:1946] 200 GET /static/css/jquery-ui.min.css (159.226.95.79) 0.81ms
+[I 160927 16:06:46 web:1946] 200 GET /static/css/bootstrap-switch.min.css (159.226.95.79) 0.71ms
+[I 160927 16:06:46 web:1946] 200 GET /static/js/bootstrap.min.js (159.226.95.79) 0.87ms
+[I 160927 16:06:46 web:1946] 200 GET /static/js/bootstrap-switch.min.js (159.226.95.79) 0.74ms
+[I 160927 16:06:46 web:1946] 200 GET /static/js/index.js (159.226.95.79) 0.77ms
+[I 160927 16:06:46 web:1946] 200 GET /static/css/bootstrap.min.css (159.226.95.79) 258.11ms
+[I 160927 16:06:46 web:1946] 200 GET /static/js/jquery.json.min.js (159.226.95.79) 0.91ms
+[I 160927 16:06:46 web:1946] 200 GET /static/js/jquery.cookie.js (159.226.95.79) 0.69ms
+[I 160927 16:06:47 web:1946] 200 GET /static/js/jquery.min.js (159.226.95.79) 993.87ms
+[I 160927 16:06:48 web:1946] 200 GET /static/cnm4.jpg (159.226.95.79) 0.85ms
+[I 160927 16:06:48 web:1946] 200 GET /static/title1.jpg (159.226.95.79) 0.68ms
+[I 160927 16:06:48 web:1946] 200 GET /static/js/jquery-ui.min.js (159.226.95.79) 2140.45ms
+[W 160927 16:06:49 web:1946] 404 GET /favicon.ico (159.226.95.79) 1.62ms
+[I 160927 19:55:34 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160927 19:55:34 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160927 19:55:34 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160927 19:55:34 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160927 19:55:34 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160927 19:55:34 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160927 19:55:40 web:1946] 200 GET /suggest?term=wa (114.242.244.232) 5784.23ms
+[I 160927 19:55:40 web:1946] 200 GET /queryAll?q=%E7%8E%8B%E6%B2%AA%E5%AE%81&baidu=true&s360=true&sogou=true&china_so=false&bing=false&shen_ma=false&filte=false&content_type=2&pn=1 (114.242.244.232) 9.88ms
+[I 160927 19:55:40 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160927 19:55:40 connectionpool:207] Starting new HTTP connection (1): suggestion.baidu.com
+[I 160927 19:55:40 connectionpool:207] Starting new HTTP connection (1): sug.so.360.cn
+[I 160927 19:55:40 connectionpool:758] Starting new HTTPS connection (1): www.sogou.com
+[I 160927 19:55:40 connectionpool:207] Starting new HTTP connection (1): www.chinaso.com
+[I 160927 19:55:40 connectionpool:207] Starting new HTTP connection (1): cn.bing.com
+[I 160927 19:55:40 web:1946] 200 GET /suggest?term=%E7%8E%8B%E6%B2%AA%E5%AE%81 (114.242.244.232) 733.46ms
+[I 160927 19:55:40 web:1946] 200 GET /static/css/jquery-ui.min.css (114.242.244.232) 0.82ms
+[I 160927 19:55:40 web:1946] 200 GET /static/js/bootstrap.min.js (114.242.244.232) 0.79ms
+[I 160927 19:55:40 web:1946] 200 GET /static/js/query.js (114.242.244.232) 0.70ms
+[I 160927 19:55:40 web:1946] 200 GET /static/css/font-awesome.min.css (114.242.244.232) 0.75ms
+[I 160927 19:55:41 web:1946] 200 GET /static/js/jquery.json.min.js (114.242.244.232) 0.79ms
+[I 160927 19:55:41 web:1946] 200 GET /static/js/jquery.cookie.js (114.242.244.232) 0.71ms
+[I 160927 19:55:41 web:1946] 200 GET /static/js/jquery.min.js (114.242.244.232) 459.42ms
+[I 160927 19:55:41 web:1946] 200 GET /static/css/bootstrap.min.css (114.242.244.232) 541.03ms
+[I 160927 19:55:41 web:1946] 200 GET /static/js/jquery-ui.min.js (114.242.244.232) 790.85ms
+[I 160927 19:55:42 web:1946] 200 GET /queryHeader?q=+%E7%8E%8B%E6%B2%AA%E5%AE%81&pn=1&content_type=2 (114.242.244.232) 2.70ms
+[I 160927 19:55:42 web:1946] 200 GET /static/js/header.js (114.242.244.232) 0.73ms
+[I 160927 19:55:42 web:1946] 200 GET /static/title.jpg (114.242.244.232) 0.73ms
+[W 160927 22:34:31 web:1946] 404 GET /favicon.ico (202.106.173.27) 1.50ms

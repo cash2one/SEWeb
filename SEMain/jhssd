@@ -1,0 +1,23 @@
+#!/bin/bash
+#chkconfig:2345 80 05
+#description: myservice
+
+if [ -f ~/.bash_profile ];
+then
+    . ~/.bash_profile
+fi
+
+case "$1" in 
+start)
+	su - v-wxb-chai "/home/v-wxb-chai/workspace/webserver/SEMain/jhss_start.sh"
+	;;
+stop)
+	su - v-wxb-chai "/home/v-wxb-chai/workspace/webserver/SEMain/jhss_stop.sh"
+	;;
+restart)
+	su - v-wxb-chai "/home/v-wxb-chai/workspace/webserver/SEMain/jhss_restart.sh"
+	;;
+*)
+	echo "Usage: sudo service sshd {start|stop|restart}"
+esac
+

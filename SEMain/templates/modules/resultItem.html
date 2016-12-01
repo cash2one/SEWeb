@@ -1,0 +1,148 @@
+{% if resultItem['type'] == 0 %}
+<div class="result_item" style="margin-top:25px;">
+    <span class="result_title">
+        <h5>
+            <a href="{{ resultItem['data']['url'] }}">{{ resultItem['data']["title"] }}</a>
+        </h5>
+    </span>
+    <span class="result_snippet">
+        <p>{% raw resultItem['data']["abstract"] %}</p>
+    </span>
+</div>
+{%end%}
+
+{% if resultItem['type'] == 1 and resultItem.get('junaType') == 'baike' %}
+
+<div class="result_item" style="margin-top:25px;">
+    <div>
+        <span class="result_title">
+        <h5>
+            <a href="{{ resultItem['headUrl']}}">{{resultItem['head']}}</a>
+        </h5>
+        </span>
+        <div style="font-size: 13px; line-height: 1.54; height:140px;">
+                    <div style="">
+                    <a style="" class="" target="_blank" href="">
+                       <img style="float: left;width: 121px;height: 140px;vertical-align: top;" src="{{ resultItem['imgUrl']}}">
+                    </a>
+                    </div>
+                    <div class="" style="margin-left:127px;">
+                    {{ resultItem['abstract']}}
+                    <br>
+                    <span style="color:#008000">baike.baidu.com</span>
+                    </div>
+        </div>
+    </div>
+</div>
+{%end%}
+
+{% if resultItem['type'] == 1 %}
+{% if resultItem.get('junaType') == 'news' %}
+<div class="result_item" style="margin-top:25px;">
+    <div>
+        <span class="result_title">
+        <h5>
+            <a href="{{ resultItem['headUrl']}}">{{resultItem['head']}}</a>
+        </h5>
+        </span>
+        <div style="padding-left: 10px;font-size: 13px; line-height: 1.54;">
+            {%for data in resultItem['data'] %}
+                {% if data['type'] == 'news_special' %}
+                <div class="" style="margin-bottom: 7px;">
+                    <a href="{{ data['url']}}">{% raw data['title']%} </a>
+                </div>
+
+                <div>
+                    {% if data['imgUrl'] is None%}
+                        <div style="">
+                        </div>
+                        <div class="" style="margin-left:0;">
+                        {{ data['abstract']}}
+                        <br>
+
+                    {% else %}
+                        <div style="">
+                        <a style="" class="" target="_blank" href="">
+                           <img style="float: left;width: 121px;height: 81px;vertical-align: top;" src="{{ data['imgUrl']}}">
+                        </a>
+                        </div>
+                        <div class="" style="margin-left:127px;">
+                        {{ data['abstract']}}
+                        <br>
+                    {%end%}
+                    <span style="color:#008000">{{ data['where']}}</span>
+                    <span style="color:#666;">{{ data['date']}}</span>
+
+                    </div>
+                </div>
+                {%end%}
+
+                {% if data['type'] == 'news_normal' %}
+                    <div style="clear: both;margin-top:1px;">
+                        <span style="color:#666;float:right">{{data['date']}} </span>
+                        <a target="_blank" href="{{data['url']}}"> {{data['title']}}  </a>
+                        <span style="color:#008000">{{data['where']}}</span>
+                    </div>
+                {%end%}
+            {%end%}
+        </div>
+    </div>
+</div>
+{%end%}
+{%end%}
+
+<!--static content template-->
+{% if resultItem['type'] == 1111 %}
+<div class="result_item" style="margin-top:25px;">
+    <div>
+        <span class="result_title">
+        <h5>
+            <a href="#">习近平的最新相关消息</a>
+        </h5>
+        </span>
+        <div style="padding-left: 10px;font-size: 13px; line-height: 1.54;">
+            <div class="" style="margin-bottom: 7px;">
+                <a href="#">习近平提三大"字号" 为东北调结构指明方向 </a>
+            </div>
+
+            <div>
+                <div style="">
+                <a style="" class="" data-click="{'title':'习近平的最新相关信息'}" target="_blank" href="http://www.baidu.com/link?url=qO59Xo4rHf5690Bq_MNwxhoiD0PkWA22rA26CqPjzrEWsnLbietFEBA73j7G7a5giFbFIvgPUMzlQ7xUQhdCR07zByqC18ZNxg7yVmInY3S">
+                   <img style="float: left;width: 121px;height: 81px;vertical-align: top;" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3743076662,4182422421&fm=82&s=52B531C4495418CC68E109960300C082&w=121&h=81&img.JPEG">
+                </a>
+                </div>
+                <div class="" style="margin-left:127px;">
+                5月25日上午,
+                <em>习近平</em>
+                在哈尔滨科技创新创业大厦勉励科技人员多出成果。
+                <em>习近平</em>
+                总书记近日在黑龙江考察调研时提出要改造升级"老字号",深度开发"原字号...
+                <br>
+                <span style="color:#008000">中国经济网</span>
+                <span style="color:#666;">7小时前</span>
+                </div>
+            </div>
+            <div style="clear: both;">
+                <span style="color:#666;float:right">4分钟前</span>
+                <a href="#"> 习近平指明了,农村改革应该这样推进  </a>
+                <span style="color:#008000">新华网</span>
+            </div>
+            <div>
+                <span style="color:#666;float:right">5分钟前</span>
+                <a href="#"> 《习近平关于深化国防和军队改革重要论述...  </a>
+                <span style="color:#008000">中国青年网</span>
+            </div>
+            <div>
+                <span style="color:#666;float:right">6分钟前</span>
+                <a href="#"> 习近平治国理政关键词·三严三实:全面从...  </a>
+                <span style="color:#008000">人民网</span>
+            </div>
+            <div>
+                <span style="color:#666;float:right">5分钟前</span>
+                <a href="#"> 习近平指明了,农村改革应该这样推进  </a>
+                <span style="color:#008000">中国青年网</span>
+            </div>
+        </div>
+    </div>
+</div>
+{%end%}
