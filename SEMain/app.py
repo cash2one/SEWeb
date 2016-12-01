@@ -27,7 +27,7 @@ import cgi
 define("port", default=9999, type=int, help="runs on port")
 dirname, filename = os.path.split(os.path.abspath(sys.argv[0]))
 
-def qitaQueryForLog_1(type,word,search_dict):
+def qitaQueryForLog(type,word,search_dict):
     global suggestion_map,relate_search_map,hint_top_map,old_query
     if word != old_query:
         suggestion_map = {}
@@ -91,64 +91,10 @@ class IndexHandler(tornado.web.RequestHandler):
     def get(self):
         self.render('index.html')
 
-class PhotoHandler(tornado.web.RequestHandler):
-    def get(self):
-        query = self.get_argument('q',default="")
-        pn = int(self.get_argument('pn', default='1'))
-        url_type = self.get_argument('url_type', default='')
-        is_ajax = self.get_argument('is_ajax',default="false")
-        search_dict={
-            'baidu':self.get_argument('baidu',default='false'),
-            's360':self.get_argument('s360',default='false'),
-            'sogou':self.get_argument('sogou',default='false'),
-            'china_so':self.get_argument('china_so',default='false'),
-            'bing':self.get_argument('bing',default='false'),
-            'shen_ma':self.get_argument('shen_ma',default='false'),
-        }
-        img_list = []
-        if query == "":
-            #print "query empty"
-            self.write("{\"status\":0}")
-        elif is_ajax !='false':
-            datas = photos.start(query, pn, search_dict)
-            self.write(datas)
-        else:
-            datas = photos.start(query,pn,search_dict)
-            datas = loads(datas)
-            if datas['status'] == 1:
-                for key,value in datas.items():
-                    if key != 'status':
-                        img_list = value;
-            else:
-                self.write("response status is 0!")
-
-            self.render(
-                "photoQuery.html",
-                img_list=img_list,
-                search_dict=search_dict,
-                pn=pn,
-                url_type=url_type,
-                searchword=query)
-
-'''
-class SuggestionHandler(tornado.web.RequestHandler):
-    def get(self):
-        word = self.get_argument('term',default='')
-        #print word
-        if word == "":
-            return
-        datas = sugesstion.start(word)
-        result = []
-        for key,value in datas.items():
-            result.append(key+"--" +value)
-        self.write(JSONEncoder().encode(result))
-'''
-
 class SuggestionHandler(tornado.web.RequestHandler):
     def get(self):
         #self.check_user()
         word = self.get_argument('term', default='')
-        #print word
         #print "after word"
         datas = {}
         if word == "":
@@ -191,57 +137,6 @@ class HeaderItemModule(tornado.web.UIModule):
             "modules/headerItem.html",
             id=id
         )
-
-
-# 请求URL 路径为 　domain:port／query　的事件响应
-class QueryHandler(tornado.web.RequestHandler):
-    def get(self):
-        # 获取URL参数
-        query = self.get_argument('q',default='')
-        filte = self.get_argument('filte',default='false')
-        pn = int(self.get_argument('pn',default='1'))
-        url_type = self.get_argument('url_type', default='')
-
-        search_dict={
-            'baidu':self.get_argument('baidu',default='false'),
-            's360':self.get_argument('s360',default='false'),
-            'sogou':self.get_argument('sogou',default='false'),
-            'china_so':self.get_argument('china_so',default='false'),
-            'bing':self.get_argument('bing',default='false'),
-            'shen_ma':self.get_argument('shen_ma',default='false'),
-        }
-
-        # 获取对应搜索引擎的推荐词
-        recoDict = hint_top(query,search_dict)
-        recoDataList = []
-        showRecPic = 0
-        #print "recoDict.values():------",len(recoDict.values())
-        if recoDict['status'] == 1 and len(recoDict)>1:
-            for value in recoDict.values():
-                if value !=1 and len(value)>0:
-                    recoDataList = value
-                    showRecPic = 1
-
-        # 获取所有搜索引擎第pn页的搜索结果
-        datalist = threading_page(query, pn, search_dict)
-        # 获取相关搜索数据
-        suggestions = sugesstion.start(query)
-
-        one_search_data = []
-        if datalist :
-            one_search_data = datalist[0]  # 一个search取一个data即可
-            self.render(
-                "query.html",
-                searchResult=one_search_data,
-                search_dict=search_dict,
-                suggestions=suggestions,
-                pn=pn,
-                showRec=showRecPic,
-                recoDataList=recoDataList,
-                url_type=url_type,
-                searchword=query)
-        else :
-            self.write("此引擎返回数据为空！")
 
 class NewsQueryHandler(tornado.web.RequestHandler):
     def get(self):
@@ -380,8 +275,7 @@ class AllQueryHandler(tornado.web.RequestHandler):
         if url_dict is None:
             url_dict = {}
         global suggestion_map,relate_search_map,hint_top_map
-        #(suggestion_map,relate_search_map,hint_top_map) = 
-        qitaQueryForLog_1(content_type,query_init,search_dict)
+        qitaQueryForLog(content_type,query_init,search_dict)
     	# 动作写入日志
         self.remoteServer(self.request.remote_ip,content_type,query_init,search_dict)
         # 模板引擎动态生成网页
@@ -418,28 +312,6 @@ class QitaQueryHandler(tornado.web.RequestHandler):
             data_map =relate_search_map
         else:
             data_map =hint_top_map
-
-class HeaderQueryHandler(tornado.web.RequestHandler):
-    def get(self):
-        # 获取URL参数
-        query = self.get_argument('q',default='')
-        filte = self.get_argument('filte',default='false')
-        pn = int(self.get_argument('pn',default='1'))
-        content_type = int(self.get_argument('content_type', default='2'))
-
-        search_dict={
-            'baidu':self.get_argument('baidu',default='false'),
-            's360':self.get_argument('s360',default='false'),
-            'sogou':self.get_argument('sogou',default='false'),
-            'china_so':self.get_argument('china_so',default='false'),
-            'bing':self.get_argument('bing',default='false'),
-            'shen_ma':self.get_argument('shen_ma',default='false'),
-        }
-        # 模板引擎动态生成网页
-        self.render("header.html",
-                    searchword=query,
-                    pn=pn,
-                    content_type=content_type)
 
 
 # 请求URL 路径为 　domain:port／queryQita　的事件响应
@@ -483,10 +355,8 @@ if __name__ == "__main__":
         handlers=[(r"/", IndexHandler),
                   (r"/queryAll", AllQueryHandler),
                   (r"/queryAll2", AllQueryHandler2),
-                  (r"/query", QueryHandler),
                   (r"/queryNews", NewsQueryHandler),
                   (r"/queryQita", QitaQueryHandler),
-                  (r"/queryPhoto", PhotoHandler),
                   (r"/recommend", RecommendHandler),
                   (r"/suggest",SuggestionHandler)],
 
@@ -499,7 +369,6 @@ if __name__ == "__main__":
     )
     http_server = tornado.httpserver.HTTPServer(app)
     http_server.listen(options.port)
-    #tornado.ioloop.IOLoop.instance().start()
     onServerStartCreateLogTable()
     tornado.ioloop.IOLoop.instance().start()
 
